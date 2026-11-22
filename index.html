@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="우리집 루틴">
+<meta name="theme-color" content="#c92a22">
+<title>우리집 루틴</title>
+<style>
+  :root{
+    --red:#dd332a; --red-deep:#a81f18; --blue:#2b4fc9; --ink:#101a30; --ink2:#3a4763;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:'Pretendard','Apple SD Gothic Neo',-apple-system,BlinkMacSystemFont,'Malgun Gothic','Noto Sans KR',sans-serif;
+    min-height:100dvh; color:var(--ink);
+    background:
+      radial-gradient(760px 420px at 94% -10%, rgba(221,51,42,.18), transparent 62%),
+      radial-gradient(720px 460px at 0% 106%, rgba(43,79,201,.16), transparent 66%),
+      linear-gradient(170deg,#f8faff 0%, #eef2fb 56%, #fdf4f3 100%);
+    padding:max(28px,env(safe-area-inset-top)) 22px max(28px,env(safe-area-inset-bottom));
+    display:flex; flex-direction:column; align-items:center; justify-content:center;
+    letter-spacing:-.012em;
+  }
+  h1{font-size:26px; margin:0 0 6px; letter-spacing:-.03em}
+  p.sub{margin:0 0 28px; color:var(--ink2); font-size:15px}
+  .cards{width:100%; max-width:520px; display:grid; gap:16px}
+  a.card{
+    display:flex; align-items:center; gap:16px; text-decoration:none; color:inherit;
+    background:#fff; border-radius:24px; padding:20px 22px;
+    box-shadow:0 14px 30px -20px rgba(12,22,46,.55), 0 2px 6px rgba(12,22,46,.06);
+    border:1px solid rgba(16,32,64,.08);
+    transition:transform .12s ease;
+  }
+  a.card:active{transform:scale(.98)}
+  a.card.disabled{opacity:.55; pointer-events:none}
+  .emoji{font-size:40px; line-height:1; width:56px; text-align:center}
+  .name{font-size:20px; font-weight:800; letter-spacing:-.03em}
+  .desc{font-size:13.5px; color:#7b88a0; margin-top:4px}
+  .badge{margin-left:auto; font-size:12px; font-weight:800; color:#fff; background:var(--red); padding:6px 11px; border-radius:999px}
+  .badge.soon{background:#b9c2d4}
+  footer{margin-top:34px; font-size:12px; color:#93a0b6; text-align:center; line-height:1.7}
+</style>
+</head>
+<body>
+  <h1>우리집 루틴</h1>
+  <p class="sub">오늘의 루틴을 골라 주세요</p>
+
+  <div class="cards">
+    <a class="card" href="roun/">
+      <div class="emoji">🕷️</div>
+      <div>
+        <div class="name">로운이의 스파이더 루틴</div>
+        <div class="desc">아침 준비 · 공부 · 잘 준비</div>
+      </div>
+      <div class="badge">열기</div>
+    </a>
+
+    <a class="card disabled" href="#" aria-disabled="true">
+      <div class="emoji">⚡</div>
+      <div>
+        <div class="name">로이의 포켓몬 루틴</div>
+        <div class="desc">곧 만들어질 거예요</div>
+      </div>
+      <div class="badge soon">준비 중</div>
+    </a>
+  </div>
+
+  <footer>
+    사파리 공유 버튼 → <b>홈 화면에 추가</b>를 누르면<br>앱처럼 아이콘이 생겨요.
+  </footer>
+</body>
+</html>
