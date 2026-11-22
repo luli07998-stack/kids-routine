@@ -1,0 +1,2578 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="format-detection" content="telephone=no">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="로운이 루틴">
+<meta name="theme-color" content="#c92a22">
+<link rel="apple-touch-icon" href="data:image/png;base64,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">
+<title>로운이의 스파이더 루틴</title>
+<style>
+:root{
+  --ink:#101a30; --ink2:#3a4763; --muted:#7b88a0;
+  --line:rgba(16,32,64,.10); --line2:rgba(16,32,64,.18);
+  --red:#dd332a; --red2:#ff6558; --red-deep:#a81f18; --red-soft:#fdeceb;
+  --blue:#2b4fc9; --blue2:#5b7ef0; --blue-soft:#eef2ff; --blue-deep:#1b3380;
+  --amber:#ffb020; --cream:#fdfaf6; --card:#fff;
+  --r:22px; --r-sm:14px;
+  --shadow:0 12px 26px -18px rgba(12,22,46,.55), 0 2px 5px rgba(12,22,46,.05);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+[hidden]{display:none !important}
+html,body{margin:0;padding:0}
+body{
+  font-family:'Pretendard','Pretendard Variable','Apple SD Gothic Neo',-apple-system,BlinkMacSystemFont,'Malgun Gothic','Noto Sans KR',sans-serif;
+  color:var(--ink);
+  background:
+    radial-gradient(760px 420px at 94% -10%, rgba(221,51,42,.16), transparent 62%),
+    radial-gradient(720px 460px at 0% 106%, rgba(43,79,201,.15), transparent 66%),
+    linear-gradient(170deg,#f8faff 0%, #eef2fb 56%, #fdf4f3 100%);
+  background-attachment:fixed;
+  min-height:100vh; min-height:100dvh;
+  -webkit-text-size-adjust:100%;
+  padding:max(12px,env(safe-area-inset-top)) max(18px,env(safe-area-inset-right)) max(4px,env(safe-area-inset-bottom)) max(18px,env(safe-area-inset-left));
+  letter-spacing:-.012em;
+}
+/* soft web watermark behind everything */
+body::before{
+  content:'';position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300' viewBox='0 0 300 300' fill='none' stroke='%23d1332a' stroke-width='1.1' opacity='.13'%3E%3Cpath d='M300 0L0 300M300 0L120 300M300 0L300 210M300 0L210 300'/%3E%3Cpath d='M300 0c-40 40-90 70-150 90M300 0c-46 26-86 66-120 120M300 0c-24 46-64 86-120 120'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right -60px top -60px;
+}
+.app{position:relative;z-index:1;max-width:1340px;margin:0 auto}
+.sprite{position:absolute;width:0;height:0;overflow:hidden}
+button{font-family:inherit;touch-action:manipulation}
+
+/* ============ HERO ============ */
+.hero{
+  position:relative;display:flex;align-items:center;gap:13px;
+  padding:9px 15px 9px 13px;border-radius:26px;color:#fff;overflow:hidden;
+  background:linear-gradient(112deg,#8f1a15 0%,#c92a22 34%,#b8242c 55%,#1b3380 100%);
+  box-shadow:0 20px 34px -22px rgba(120,20,16,.75), inset 0 1px 0 rgba(255,255,255,.16);
+}
+.hero::before{
+  content:'';position:absolute;inset:0;pointer-events:none;opacity:.55;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='420' height='220' viewBox='0 0 420 220' fill='none' stroke='%23fff' stroke-width='1'%3E%3Cpath d='M420 0H120M420 0L250 220M420 0L360 220M420 0L180 160M420 0L420 120'/%3E%3Cpath d='M420 0c-52 22-96 52-132 96M420 0c-46 34-84 78-108 130M420 0c-30 44-60 96-72 156'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right top;
+}
+.hero::after{
+  content:'';position:absolute;right:-40px;top:-70px;width:230px;height:230px;pointer-events:none;
+  background:radial-gradient(circle at 60% 40%, rgba(255,255,255,.16), transparent 62%);
+}
+.hero-av{
+  position:relative;flex:0 0 auto;width:62px;height:62px;border-radius:50%;overflow:hidden;
+  box-shadow:0 0 0 2.5px #fff, 0 0 0 6px rgba(255,255,255,.16), 0 12px 20px -12px #000;
+}
+.hero-av svg{width:100%;height:100%;display:block}
+.hero-txt{position:relative;z-index:1;min-width:0}
+.hero h1{margin:0;font-size:clamp(19px,2.1vw,26px);font-weight:800;letter-spacing:-.04em;line-height:1.12;white-space:nowrap;text-shadow:0 2px 8px rgba(0,0,0,.18)}
+.hero-sub{margin:3px 0 0;font-size:12.5px;font-weight:800;color:rgba(255,255,255,.9);display:flex;align-items:center;gap:5px;letter-spacing:-.02em}
+.hero-sub svg{width:14px;height:14px;color:#ffd8b0}
+.hero-right{position:relative;z-index:1;margin-left:auto;display:flex;align-items:center;gap:9px}
+.stamp-pill{
+  display:flex;align-items:center;gap:9px;padding:6px 14px 6px 7px;border-radius:999px;
+  background:linear-gradient(180deg,#fff,#fff6f5);color:var(--ink);
+  box-shadow:0 12px 20px -14px rgba(0,0,0,.7), inset 0 0 0 1px rgba(255,255,255,.7);
+}
+.stamp-ic{
+  width:34px;height:34px;border-radius:50%;display:grid;place-items:center;flex:0 0 auto;
+  background:radial-gradient(circle at 38% 26%, #ff8073, #c9271f);
+  box-shadow:inset 0 0 0 2px rgba(255,255,255,.75);
+}
+.stamp-ic svg{width:20px;height:20px;color:#fff}
+.stamp-num{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums;line-height:1;color:var(--red-deep)}
+.stamp-lbl{font-size:10px;line-height:1.2;font-weight:800;color:var(--muted)}
+.stamp-lbl b{display:block;font-size:10.5px;color:var(--ink);font-weight:800}
+.gear{
+  width:38px;height:38px;border-radius:13px;display:grid;place-items:center;cursor:pointer;
+  border:1px solid rgba(255,255,255,.26);background:rgba(255,255,255,.14);color:#fff;
+  transition:background .15s,transform .12s;
+}
+.gear:hover{background:rgba(255,255,255,.24)}
+.gear:active{transform:scale(.94)}
+.gear svg{width:19px;height:19px}
+
+/* ============ INFO CARDS ============ */
+.info-grid{display:grid;grid-template-columns:1fr 1.3fr 1.16fr;gap:10px;margin-top:10px}
+.card{
+  position:relative;overflow:hidden;
+  background:var(--card);border:1px solid var(--line);border-radius:var(--r);
+  box-shadow:var(--shadow);padding:9px 15px 10px;
+}
+.card-label{display:flex;align-items:center;gap:6px;font-size:11px;font-weight:800;color:var(--muted);letter-spacing:-.01em}
+.card-label .loc{color:var(--ink2);opacity:.85;font-weight:700}
+.clock{font-size:clamp(25px,2.9vw,33px);font-weight:800;line-height:1.04;letter-spacing:-.045em;margin-top:1px;font-variant-numeric:tabular-nums}
+.clock .sec{font-size:.48em;font-weight:700;color:var(--blue);margin-left:2px;letter-spacing:0}
+.clock-date{font-size:11.5px;font-weight:800;color:var(--ink2);margin-top:1px}
+.clock-cheer{
+  display:inline-flex;align-items:center;gap:4px;margin-top:5px;padding:2px 9px 2px 6px;
+  border-radius:999px;background:var(--red-soft);color:var(--red-deep);
+  font-size:11px;font-weight:800;white-space:nowrap;
+}
+.clock-cheer svg{width:11px;height:11px}
+
+.wx-head{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.mini-btn{
+  width:25px;height:25px;border-radius:50%;border:1px solid var(--line2);background:#fff;
+  display:grid;place-items:center;color:var(--ink2);cursor:pointer;flex:0 0 auto;
+  transition:transform .15s,border-color .15s;
+}
+.mini-btn:active{transform:scale(.92)}
+.mini-btn svg{width:14px;height:14px}
+.mini-btn.spin svg{animation:spinning .9s linear infinite}
+@keyframes spinning{to{transform:rotate(360deg)}}
+.wx-main{display:flex;align-items:center;gap:9px;margin-top:1px;min-height:40px}
+.wx-ic{flex:0 0 auto;color:#f0a41c;display:grid;place-items:center}
+.wx-ic svg{width:36px;height:36px}
+.wx-temp{font-size:29px;font-weight:800;letter-spacing:-.045em;font-variant-numeric:tabular-nums;line-height:1}
+.wx-desc{font-size:12.5px;font-weight:800;color:var(--ink2);align-self:flex-end;padding-bottom:2px}
+.wx-meta{display:flex;justify-content:space-between;gap:8px;font-size:10.5px;font-weight:700;color:var(--muted);margin-top:1px}
+.wx-meta .range{color:var(--ink2)}
+.wx-meta .asof{opacity:.8}
+
+.quote-card{cursor:pointer;background:linear-gradient(145deg,#fff,#fff6f5);border-color:rgba(221,51,42,.24)}
+.quote-card:active{transform:scale(.998)}
+.quote-card::after{
+  content:'';position:absolute;right:-26px;bottom:-34px;width:132px;height:132px;pointer-events:none;opacity:.16;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='none' stroke='%23dd332a' stroke-width='3'%3E%3Cpath d='M0 0h100M0 0l100 100M0 0l50 100M0 0l100 50M0 0l20 100M0 0l100 20'/%3E%3Cpath d='M0 0c14 30 30 46 60 60M0 0c30 14 46 30 60 60'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;transform:rotate(180deg);
+}
+.quote{position:relative;z-index:1;margin:6px 0 0;font-size:clamp(13px,1.3vw,15.5px);font-weight:800;line-height:1.4;color:#7a1d18;letter-spacing:-.03em;max-width:92%}
+.tap-hint{margin-left:auto;font-size:9.5px;font-weight:800;color:#c2564c;background:rgba(255,255,255,.85);border-radius:999px;padding:1px 7px}
+
+/* ============ MODE + MEMO ============ */
+.bar-row{display:grid;grid-template-columns:auto 1fr;gap:10px;margin-top:10px;align-items:stretch}
+.mode-tabs{display:flex;gap:4px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:4px;box-shadow:var(--shadow)}
+.mode-tab{
+  display:flex;align-items:center;gap:6px;border:0;background:transparent;cursor:pointer;
+  padding:6px 14px;border-radius:999px;font-size:13px;font-weight:800;color:var(--muted);
+  white-space:nowrap;transition:all .16s;
+}
+.mode-tab svg{width:17px;height:17px}
+.mode-tab .sub{font-size:9.5px;font-weight:800;opacity:.7;letter-spacing:-.02em;margin-left:2px;padding-left:6px;border-left:1px solid currentColor}
+.mode-tab.active{
+  background:linear-gradient(135deg,#fff3f2,#ffddd9);color:var(--red-deep);
+  box-shadow:inset 0 0 0 1.5px rgba(221,51,42,.45), 0 5px 12px -8px rgba(200,40,32,.8);
+}
+.memo-bar{
+  position:relative;display:flex;align-items:center;gap:9px;min-width:0;
+  background:var(--cream);border:1px solid rgba(16,32,64,.085);border-radius:999px;
+  padding:6px 7px 6px 13px;box-shadow:var(--shadow);
+}
+.memo-bar > svg{width:15px;height:15px;color:#c2564c;flex:0 0 auto}
+.memo-bar .lbl{font-size:10.5px;font-weight:800;color:var(--red-deep);background:var(--red-soft);border-radius:999px;padding:2px 8px;white-space:nowrap;flex:0 0 auto}
+.memo-text{
+  flex:1;min-width:0;font-size:12px;font-weight:700;color:var(--ink2);
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;cursor:text;
+}
+.memo-text.empty{color:#a9b3c6;font-weight:600}
+.icon-edit{
+  width:28px;height:28px;border-radius:50%;border:1px solid var(--line);background:#fff;
+  display:grid;place-items:center;color:var(--ink2);cursor:pointer;flex:0 0 auto;
+}
+.icon-edit svg{width:13px;height:13px}
+.bar-row.editing .memo-text, .sched-bar.editing .sched-text{opacity:.25}
+.inline-editor{
+  position:absolute;left:8px;right:8px;top:50%;transform:translateY(-50%);
+  display:flex;align-items:center;gap:6px;z-index:5;
+  background:#fff;border:1px solid rgba(221,51,42,.4);border-radius:14px;
+  padding:5px 6px;box-shadow:0 16px 26px -16px rgba(14,27,56,.6);
+}
+.inline-input{
+  flex:1;min-width:0;font-family:inherit;font-size:16px;font-weight:700;color:var(--ink);
+  border:1px solid var(--line);border-radius:9px;padding:5px 9px;resize:none;line-height:1.3;
+  background:#fbfcff;
+}
+.inline-input:focus{outline:2px solid rgba(221,51,42,.35);outline-offset:0}
+
+/* ============ SCHEDULE ============ */
+.sched-bar{
+  position:relative;display:flex;align-items:center;gap:11px;margin-top:8px;
+  background:#fff;border:1px solid rgba(43,79,201,.24);border-radius:17px;
+  padding:6px 13px 6px 8px;box-shadow:var(--shadow);
+}
+.date-chip{
+  display:flex;align-items:baseline;gap:5px;background:linear-gradient(135deg,#eef2ff,#e0e8ff);
+  border-radius:11px;padding:3px 10px;color:var(--blue);flex:0 0 auto;
+}
+.date-chip .d-num{font-size:16px;font-weight:800;font-variant-numeric:tabular-nums}
+.date-chip .d-wd{font-size:10.5px;font-weight:800;opacity:.95}
+.sched-body{min-width:0;flex:1;display:flex;align-items:center;gap:9px}
+.sched-label{font-size:11px;font-weight:800;color:var(--muted);flex:0 0 auto}
+.sched-text{font-size:12px;font-weight:700;color:var(--ink2);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+/* ============ COLUMNS ============ */
+.cols{display:grid;grid-template-columns:.95fr 1.1fr 1fr;gap:10px;margin-top:9px;align-items:stretch}
+.col{min-width:0;display:flex;flex-direction:column;gap:10px}
+.col > .panel:only-child{flex:1 0 auto}
+.panel{position:relative;display:flex;flex-direction:column;padding:11px 12px 12px;overflow:hidden}
+.panel::after{
+  content:'';position:absolute;right:0;top:0;width:110px;height:110px;pointer-events:none;opacity:.075;z-index:0;
+  background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='none' stroke='%23c9271f' stroke-width='1.7'%3E%3Cpath d='M100 0H0M100 0L0 100M100 0L0 42M100 0L0 72M100 0L30 100M100 0L62 100M100 0V100'/%3E%3Cpath d='M76 0A24 24 0 00100 24M50 0A50 50 0 00100 50M24 0A76 76 0 00100 76'/%3E%3C/svg%3E") right top/110px 110px no-repeat;
+}
+.panel > *{position:relative;z-index:1}
+.panel-head{display:flex;align-items:center;gap:8px}
+.panel-ic{
+  width:32px;height:32px;border-radius:11px;display:grid;place-items:center;flex:0 0 auto;
+  background:linear-gradient(140deg,#eef2ff,#dbe4ff);color:var(--blue);
+}
+.panel-ic svg{width:18px;height:18px}
+.panel h2{margin:0;font-size:16px;font-weight:800;letter-spacing:-.035em;line-height:1.15}
+.panel-title{min-width:0}
+.panel-study{background:linear-gradient(180deg,#fbfcff 0%,#fff 40%)}
+.panel-study .panel-ic{background:linear-gradient(140deg,#e8eeff,#cfdcff);color:#22409e}
+.panel-vit{background:linear-gradient(180deg,#fffbfa 0%,#fff 42%)}
+.panel-vit .panel-ic{background:linear-gradient(140deg,#ffefec,#ffd8d2);color:#c9271f}
+.panel-ready{background:linear-gradient(180deg,#fffafa 0%,#fff 44%)}
+.panel-ready .panel-ic{background:linear-gradient(140deg,#ffebe8,#ffd2ca);color:#c9271f}
+.panel-morning .panel-ic{background:linear-gradient(140deg,#fff4e2,#ffe2b6);color:#b67708}
+.seal-pill{
+  margin-left:auto;display:inline-flex;align-items:center;gap:4px;flex:0 0 auto;
+  background:#fff2f0;border:1px solid rgba(221,51,42,.34);border-radius:999px;
+  padding:2px 9px 2px 4px;font-size:12px;font-weight:800;color:var(--red-deep);
+  font-variant-numeric:tabular-nums;
+}
+.seal-pill svg{width:16px;height:16px;color:var(--red)}
+.seal-pill.blue{background:#eef2ff;border-color:rgba(43,79,201,.3);color:#1e3c96}
+.seal-pill.blue svg{color:var(--blue)}
+.seal-pill.amber{background:#fff6e2;border-color:rgba(255,176,32,.4);color:#8a5a00}
+.seal-pill.amber svg{color:#d99413}
+.night{
+  display:inline-flex;align-items:center;gap:4px;margin-top:3px;
+  font-size:10.5px;font-weight:800;color:#5d6b86;background:#f2f5fc;border:1px solid rgba(16,32,64,.09);
+  border-radius:999px;padding:1px 8px 1px 5px;line-height:1.5;white-space:nowrap;
+}
+.night svg{width:11px;height:11px;flex:0 0 auto}
+.night.on{color:#fff;background:linear-gradient(135deg,#2b4fc9,#1b3380);border-color:#1b3380;box-shadow:0 4px 10px -6px rgba(27,51,128,.9)}
+.night b{font-weight:800;font-variant-numeric:tabular-nums}
+
+.items{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.item{
+  position:relative;display:flex;align-items:center;gap:9px;min-height:44px;
+  padding:6px 9px 6px 7px;border-radius:14px;background:#fff;
+  border:1.5px solid rgba(16,32,64,.11);cursor:pointer;
+  transition:background .16s,border-color .16s,box-shadow .16s;
+}
+.item:active{transform:scale(.995)}
+.item .ico{
+  width:30px;height:30px;border-radius:10px;display:grid;place-items:center;flex:0 0 auto;
+  background:linear-gradient(140deg,#f2f5fc,#e7ecfa);color:#54648a;transition:all .18s;
+}
+.item .ico svg{width:17px;height:17px}
+.panel-study .item .ico{background:linear-gradient(140deg,#eef3ff,#dfe8ff);color:#22409e}
+.panel-vit .item .ico{background:linear-gradient(140deg,#fff0ed,#ffe1dc);color:#c9271f}
+.panel-ready .item .ico{background:linear-gradient(140deg,#fff0ed,#ffe1dc);color:#c9271f}
+.panel-morning .item .ico{background:linear-gradient(140deg,#fff6e6,#ffe7c2);color:#b67708}
+.item .t{font-size:14.5px;font-weight:800;color:var(--ink);letter-spacing:-.03em;min-width:0;line-height:1.2;flex:1}
+.item .t .t-main{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;word-break:break-word}
+.item .t .sub2{display:block;font-size:10px;font-weight:800;color:var(--muted);margin-top:1px;letter-spacing:-.01em}
+.item .check{
+  width:24px;height:24px;border-radius:50%;border:2.5px solid #cbd5e8;background:#fff;
+  display:grid;place-items:center;color:transparent;flex:0 0 auto;transition:all .18s;
+}
+.item .check svg{width:13px;height:13px}
+.item.on{background:linear-gradient(135deg,#fff7f6,#ffeae7);border-color:rgba(221,51,42,.55)}
+.item.on .ico{background:linear-gradient(140deg,#ff7b6d,#c9271f);color:#fff;box-shadow:0 4px 9px -6px rgba(180,30,24,.9)}
+.item.on .check{background:linear-gradient(140deg,#ff6b5d,#c9271f);border-color:#b3221b;color:#fff}
+.item.on .t{color:#8f1d17}
+.item.on .t .sub2{color:#b2564c}
+.swap{
+  flex:0 0 auto;font-family:inherit;font-size:10px;font-weight:800;
+  color:#1e3c96;background:#eef2ff;border:1px solid rgba(43,79,201,.26);
+  border-radius:8px;padding:3px 7px;cursor:pointer;min-height:26px;
+}
+.swap:active{background:#e0e8ff}
+.stamp-fx{position:absolute;right:2px;top:50%;width:50px;height:50px;margin-top:-25px;color:#dd332a;pointer-events:none;animation:stampIn .75s ease-out forwards;z-index:3}
+.stamp-fx svg{width:100%;height:100%;filter:drop-shadow(0 3px 6px rgba(160,30,24,.3))}
+@keyframes stampIn{
+  0%{opacity:0;transform:scale(2) rotate(-20deg)}
+  32%{opacity:.97;transform:scale(.96) rotate(-8deg)}
+  62%{opacity:.95;transform:scale(1.02) rotate(-8deg)}
+  100%{opacity:0;transform:scale(1.02) rotate(-8deg)}
+}
+
+/* reward */
+.reward-box{
+  margin-top:8px;border:1.5px dashed rgba(221,51,42,.4);border-radius:14px;
+  padding:7px 9px 8px;background:linear-gradient(180deg,#fffbfa,#fff4f2);
+}
+.reward-title{display:flex;align-items:center;gap:6px;font-size:11.5px;font-weight:800;color:var(--red-deep)}
+.reward-title svg{width:14px;height:14px;color:var(--red)}
+.reward-title span{margin-left:auto;font-size:10px;font-weight:800;color:#c2564c}
+.reward-opts{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin-top:6px}
+.reward-opt{
+  display:flex;align-items:center;justify-content:center;gap:6px;
+  background:#fff;border:1.5px solid rgba(16,32,64,.11);border-radius:12px;
+  padding:8px 5px;font-size:12px;font-weight:800;color:var(--ink2);cursor:pointer;
+  transition:all .16s;min-height:40px;
+}
+.reward-opt svg{width:16px;height:16px;color:var(--blue);flex:0 0 auto}
+.reward-opt.on{
+  background:linear-gradient(135deg,#c9271f,#8f1a15);color:#fff;border-color:#a81f18;
+  box-shadow:0 9px 16px -11px rgba(150,25,20,.9);
+}
+.reward-opt.on svg{color:#ffd98a}
+.reward-note{margin-top:5px;font-size:10.5px;font-weight:800;color:#b2564c;line-height:1.3;text-align:center}
+.reward-note.open{color:#1c7a44}
+
+/* timer */
+.timer{margin-top:auto;border-radius:14px;padding:7px 10px 8px;background:linear-gradient(180deg,#f7f9ff,#e9eefc);border:1px solid rgba(43,79,201,.16)}
+.timer-head{display:flex;align-items:center;justify-content:space-between;font-size:10.5px;font-weight:800;color:#4c5f85}
+.timer-head b{color:#1f3f7d}
+.timer-state{font-size:10px;font-weight:800;color:#7c8aa5;background:#fff;border-radius:999px;padding:1px 8px;border:1px solid rgba(16,32,64,.08)}
+.timer-state.run{color:#1e6b3f;background:#e9f8ee;border-color:rgba(35,130,74,.28)}
+.timer-state.done{color:#b03e2a;background:#fff0ee;border-color:rgba(224,74,51,.3)}
+.timer-time{font-size:26px;font-weight:800;letter-spacing:-.04em;font-variant-numeric:tabular-nums;color:#182a55;line-height:1.1;margin-top:1px}
+.bar{height:7px;border-radius:999px;background:rgba(43,79,201,.13);overflow:hidden;margin-top:5px}
+.bar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,#2b4fc9,#7a9cf5);transition:width .35s}
+.bar.red{background:rgba(221,51,42,.12)}
+.bar.red i{background:linear-gradient(90deg,#c9271f,#ff7a6b)}
+.bar.amber{background:rgba(255,176,32,.18)}
+.bar.amber i{background:linear-gradient(90deg,#f0a71e,#ffd166)}
+.timer-btns{display:flex;gap:5px;margin-top:7px}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:4px;
+  border-radius:11px;padding:7px 11px;font-size:12px;font-weight:800;cursor:pointer;
+  border:1px solid transparent;min-height:34px;transition:transform .12s,filter .15s;
+}
+.btn:active{transform:scale(.97)}
+.btn svg{width:12px;height:12px}
+.btn.primary{background:linear-gradient(135deg,#c9271f,#e0453a);color:#fff;box-shadow:0 9px 15px -11px rgba(160,25,20,.95)}
+.btn.ghost{background:#fff;border-color:rgba(16,32,64,.14);color:var(--ink2)}
+.btn.danger{background:#fff;border-color:rgba(221,51,42,.42);color:#bf3d27}
+.btn.danger.armed{background:#dd332a;border-color:#b3221b;color:#fff}
+.btn.sm{padding:5px 9px;font-size:11px;min-height:30px}
+.btn:disabled{opacity:.42}
+
+/* stamp board */
+.stamp-summary{
+  position:relative;overflow:hidden;margin-top:8px;border-radius:16px;padding:8px 11px 9px;color:#fff;
+  background:linear-gradient(145deg,#151a33,#25224a 55%,#3a1d38);
+  box-shadow:0 14px 24px -18px rgba(10,22,46,.95);
+}
+.stamp-summary::after{
+  content:'';position:absolute;inset:0;pointer-events:none;opacity:.5;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='220' height='220' viewBox='0 0 220 220' fill='none' stroke='%23ff6558' stroke-width='1.1'%3E%3Cpath d='M220 0H60M220 0L90 220M220 0L220 120M220 0L150 220'/%3E%3Cpath d='M220 0c-40 20-74 48-96 86M220 0c-34 30-60 70-76 120'/%3E%3C/svg%3E");
+  background-repeat:no-repeat;background-position:right top;
+}
+.ss-head{position:relative;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:10.5px;font-weight:800;color:rgba(255,255,255,.72)}
+.rank{background:rgba(255,101,88,.18);border:1px solid rgba(255,101,88,.42);color:#ffd0ca;border-radius:999px;padding:1px 8px;font-size:9.5px;letter-spacing:-.01em}
+.ss-num{position:relative;z-index:1;display:flex;align-items:baseline;gap:4px;margin-top:2px}
+.ss-num > b{font-size:34px;font-weight:800;line-height:1;letter-spacing:-.045em;font-variant-numeric:tabular-nums}
+.ss-num .u{font-size:12px;font-weight:800;opacity:.8;margin-right:auto}
+.ss-total{font-size:10.5px;font-weight:700;color:rgba(255,255,255,.62);align-self:center}
+.ss-total b{font-size:12px;color:#fff;font-weight:800;font-variant-numeric:tabular-nums}
+.seal-grid{position:relative;z-index:1;display:grid;grid-template-columns:repeat(6,1fr);gap:4px;margin-top:6px;max-width:340px}
+.seal-slot{
+  height:29px;border-radius:8px;display:grid;place-items:center;
+  border:1px dashed rgba(255,255,255,.24);color:rgba(255,255,255,.26);
+}
+.seal-slot svg{width:13px;height:13px}
+.seal-slot.on{border:1px solid #ff8a7d;background:linear-gradient(160deg,#ff7a6b,#c9271f);color:#fff;box-shadow:0 5px 13px -6px rgba(221,51,42,.9), inset 0 1px 0 rgba(255,255,255,.35)}
+
+.mission-list{display:flex;flex-direction:column;gap:3px;margin-top:7px}
+.mission{display:flex;align-items:center;gap:7px;font-size:10.5px;font-weight:800;color:var(--ink2)}
+.mission .nm{flex:0 0 56px;color:#5a6b8c}
+.mission .mbar{flex:1;height:6px;border-radius:999px;background:rgba(16,32,64,.08);overflow:hidden}
+.mission .mbar i{display:block;height:100%;border-radius:999px;background:linear-gradient(90deg,#dd332a,#ff8a7d);transition:width .3s}
+.mission .cnt{flex:0 0 auto;font-size:10px;color:var(--muted);font-variant-numeric:tabular-nums;min-width:24px;text-align:right}
+.week-strip{margin-top:6px;padding-top:5px;border-top:1px dashed rgba(16,32,64,.12)}
+.ws-head{display:flex;align-items:baseline;justify-content:space-between;font-size:10.5px;font-weight:800;color:var(--muted)}
+.ws-head b{font-size:11px;color:var(--red-deep)}
+.ws-days{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;margin-top:4px}
+.ws-cell{display:flex;flex-direction:column;align-items:center;padding:2px 0 1px;border-radius:8px;background:rgba(16,32,64,.045);border:1px solid transparent}
+.ws-cell .d{font-size:9.5px;line-height:1.15;font-weight:800;color:#9aa7bd}
+.ws-cell .n{font-size:10px;line-height:1.3;height:13px;font-weight:800;color:#c2cbd9;font-variant-numeric:tabular-nums}
+.ws-cell.on{background:linear-gradient(160deg,#fff0ee,#ffd9d3);border-color:rgba(221,51,42,.4)}
+.ws-cell.on .d{color:#a81f18}
+.ws-cell.on .n{color:#b3221b}
+.ws-cell.today{box-shadow:0 0 0 1.5px rgba(221,51,42,.7)}
+.praise{display:flex;align-items:flex-start;gap:6px;margin-top:6px;padding:6px 9px;border-radius:11px;background:linear-gradient(135deg,#fff3f2,#ffe3df);border:1px solid rgba(221,51,42,.28);font-size:11px;font-weight:800;color:#8f1d17;line-height:1.4}
+.praise svg{width:12px;height:12px;flex:0 0 auto;color:var(--red);margin-top:1px}
+.reward-state{
+  margin-top:auto;border-radius:12px;padding:6px 9px;text-align:center;
+  font-size:11.5px;font-weight:800;background:#f2f5fc;color:#6d7c99;
+  border:1px solid rgba(16,32,64,.075);line-height:1.35;
+}
+.reward-state.open{
+  background:linear-gradient(135deg,#ffe0dc,#ffc4bc);color:#8f1d17;
+  border-color:rgba(221,51,42,.5);animation:pulse 2s infinite;
+}
+@keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(221,51,42,.3)}55%{box-shadow:0 0 0 7px rgba(221,51,42,0)}}
+
+/* order card */
+.col > .order-card{flex:1 0 auto;justify-content:center;gap:8px;background:linear-gradient(160deg,#fffdf8,#fff5e9);border-color:rgba(255,176,32,.32)}
+.order-card h3{margin:0;font-size:13px;font-weight:800;display:flex;align-items:center;gap:6px;color:#8a5a00}
+.order-card h3 svg{width:15px;height:15px;color:#d99413}
+.steps{display:flex;flex-direction:column;gap:6px;margin-top:2px}
+.step{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid rgba(255,176,32,.4);border-radius:11px;padding:7px 10px;font-size:12px;font-weight:800;color:#6b4a0a}
+.step .lab{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.step .n{width:21px;height:21px;border-radius:50%;background:linear-gradient(135deg,#ffc25c,#ee9c10);color:#4a3200;display:grid;place-items:center;font-size:11px;font-weight:800;flex:0 0 auto}
+.step svg{width:15px;height:15px;color:#d99413;margin-left:auto}
+.order-note{margin:0;font-size:10.5px;font-weight:800;color:#a8823c;text-align:center}
+.mini-card{padding:11px 13px}
+.mini-card h3{margin:0 0 4px;font-size:13px;font-weight:800;letter-spacing:-.02em;display:flex;align-items:center;gap:6px}
+.mini-card h3 svg{width:15px;height:15px;color:#c9271f}
+.mini-card p{margin:0;font-size:11.5px;font-weight:700;color:var(--ink2);line-height:1.45}
+
+/* morning view */
+.cols.morning{grid-template-columns:1.45fr 1fr;align-items:stretch;min-height:344px}
+.cols.morning .col > .card{flex:1 1 auto;display:flex;flex-direction:column}
+.cols.morning #morningItems{flex:1 1 auto;margin:0;gap:8px;grid-auto-rows:minmax(56px,1fr)}
+.cols.morning #morningItems .t{font-size:15px}
+.cols.morning #morningItems .ico{width:34px;height:34px;border-radius:11px}
+.cols.morning #morningItems .ico svg{width:19px;height:19px}
+.cols.morning .mini-card{flex:0 0 auto;justify-content:flex-start}
+.cols.morning .col > .mini-card{flex:0 0 auto}
+.cols.morning .morning-cheer{flex:1 1 auto;display:flex;flex-direction:column;justify-content:center}
+.cols.morning .col > .morning-cheer{flex:1 1 auto;justify-content:center}
+.cols.morning .morning-cheer p{font-size:15px;max-width:82%}
+.morning-cheer{position:relative;overflow:hidden;background:linear-gradient(150deg,#fffdf6,#fff3e2);border-color:rgba(255,176,32,.35)}
+.morning-cheer p{position:relative;z-index:1;font-size:12.5px;font-weight:800;color:#5b4108;line-height:1.45;max-width:86%}
+.cheer-deco{position:absolute;right:-10px;bottom:-12px;width:82px;height:82px;color:var(--amber);opacity:.32}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
+.chip{font-size:10.5px;font-weight:800;color:#3d4c6d;background:#f4f7ff;border:1px solid rgba(43,79,201,.14);border-radius:999px;padding:3px 9px}
+.chip.warm{color:#8f1d17;background:#fff2f0;border-color:rgba(221,51,42,.3)}
+.items.grid2{display:grid;grid-template-columns:1fr 1fr;gap:7px}
+
+/* footer */
+.foot{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:8px 3px 0;font-size:10.5px;font-weight:700;color:#93a0b8}
+.foot .cheer{color:#8a97ad}
+.foot .save{display:inline-flex;align-items:center;gap:4px}
+.foot .save svg{width:11px;height:11px;color:#a9b6cc}
+
+/* toast */
+.toast{
+  position:fixed;left:50%;bottom:max(20px,env(safe-area-inset-bottom));
+  transform:translate(-50%,16px);opacity:0;pointer-events:none;z-index:90;
+  background:rgba(21,26,51,.96);color:#fff;font-size:12px;font-weight:800;
+  padding:9px 16px;border-radius:999px;box-shadow:0 16px 30px -16px #000;
+  transition:opacity .24s,transform .24s;max-width:min(88vw,600px);text-align:center;
+}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* modals */
+.modal{position:fixed;inset:0;z-index:100;display:flex;align-items:center;justify-content:center;padding:16px;
+  background:rgba(18,14,30,.5);-webkit-backdrop-filter:blur(7px);backdrop-filter:blur(7px)}
+.sheet{
+  width:min(500px,100%);max-height:calc(100dvh - 40px);overflow:auto;background:#fff;border-radius:22px;
+  padding:15px 17px 16px;box-shadow:0 40px 70px -26px rgba(6,14,32,.7);
+}
+.sheet header{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.sheet h3{margin:0;font-size:17px;font-weight:800;letter-spacing:-.03em;display:flex;align-items:center;gap:7px}
+.sheet h3 svg{width:18px;height:18px;color:var(--red)}
+.close{width:30px;height:30px;border-radius:9px;border:1px solid var(--line);background:#fff;display:grid;place-items:center;color:var(--ink2);cursor:pointer}
+.close svg{width:14px;height:14px}
+.set-row{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:11px 0;border-top:1px solid var(--line)}
+.set-row:first-of-type{border-top:0}
+.set-row b{font-size:12.5px;font-weight:800}
+.set-row p{margin:2px 0 0;font-size:10.5px;font-weight:600;color:var(--muted);line-height:1.4}
+.stepper{display:flex;align-items:center;gap:5px;flex:0 0 auto}
+.stepper input{
+  width:62px;font-family:inherit;font-size:15px;font-weight:800;text-align:center;
+  padding:6px 6px;border-radius:9px;border:1px solid var(--line2);background:#fbfcff;color:var(--ink);
+}
+.stepbtn{width:30px;height:32px;border-radius:9px;border:1px solid var(--line2);background:#fff;font-size:15px;font-weight:800;color:var(--ink2);cursor:pointer}
+.set-note{margin-top:10px;font-size:10px;font-weight:700;color:#9aa7bd;text-align:center;background:#f7f9fd;border-radius:10px;padding:7px}
+.done-sheet{text-align:center;width:min(400px,100%)}
+.done-star{width:76px;height:76px;margin:2px auto 6px;color:var(--red);filter:drop-shadow(0 8px 14px rgba(221,51,42,.4));animation:pop .5s ease-out}
+@keyframes pop{0%{transform:scale(.5) rotate(-18deg);opacity:0}70%{transform:scale(1.08) rotate(4deg);opacity:1}100%{transform:scale(1) rotate(0)}}
+.done-sheet h3{display:block;font-size:20px;margin-bottom:6px}
+.done-sheet p{font-size:12.5px;font-weight:700;color:var(--ink2);line-height:1.5;margin:0 0 13px}
+.done-btns{display:flex;gap:7px;justify-content:center}
+
+/* routine edit */
+.panel-head .panel-edit{
+  margin-left:auto;flex:0 0 auto;width:25px;height:25px;border-radius:8px;cursor:pointer;
+  display:grid;place-items:center;border:1px solid rgba(16,32,64,.13);background:#fff;color:#93a0b8;
+  transition:color .15s,border-color .15s,background .15s,transform .12s;
+}
+.panel-head .panel-edit:hover{color:var(--red);border-color:rgba(221,51,42,.4);background:#fff7f6}
+.panel-head .panel-edit:active{transform:scale(.92)}
+.panel-head .panel-edit svg{width:12px;height:12px}
+.panel-head .panel-edit + .seal-pill{margin-left:6px}
+
+.routine-sheet{width:min(580px,100%)}
+.routine-lead{margin:7px 0 0;font-size:11px;font-weight:700;color:var(--muted);line-height:1.45}
+.routine-editor{display:flex;flex-direction:column;gap:10px;margin-top:9px}
+.re-group{border:1px solid var(--line);border-radius:14px;padding:8px 10px 9px;background:linear-gradient(180deg,#fbfcff,#fff);transition:box-shadow .2s,border-color .2s}
+.re-group.hl{border-color:rgba(221,51,42,.45);box-shadow:0 0 0 2px rgba(221,51,42,.12)}
+.re-head{display:flex;align-items:center;gap:6px;font-size:12px;font-weight:800;letter-spacing:-.02em}
+.re-head svg{width:14px;height:14px;color:var(--red);flex:0 0 auto}
+.re-head .n{margin-left:auto;font-size:10px;font-weight:800;color:#6d7c99;background:#f1f5fd;border-radius:999px;padding:1px 8px}
+.re-rows{display:flex;flex-direction:column;gap:4px;margin-top:6px}
+.re-row{display:flex;align-items:center;gap:6px;min-height:36px;padding:4px 7px;border-radius:10px;background:#fff;border:1px solid rgba(16,32,64,.1)}
+.re-row .ic{width:21px;height:21px;border-radius:6px;display:grid;place-items:center;background:var(--red-soft);color:#c9271f;flex:0 0 auto}
+.re-row .ic svg{width:12px;height:12px}
+.re-name{flex:1;min-width:0;font-size:12.5px;font-weight:800;line-height:1.35;word-break:break-word;display:flex;align-items:center;gap:5px;flex-wrap:wrap}
+.re-name .tag{font-size:9px;font-weight:800;color:#1e3c96;background:#eef2ff;border:1px solid rgba(43,79,201,.2);border-radius:999px;padding:0 6px;white-space:nowrap}
+.re-empty{font-size:10.5px;font-weight:700;color:var(--muted);padding:4px 2px}
+.re-edit{display:flex;align-items:center;gap:5px;flex:1;min-width:0}
+.re-edit .re-input{flex:1}
+.iconbtn{
+  width:28px;height:28px;border-radius:8px;border:1px solid var(--line);background:#fff;
+  color:var(--ink2);display:grid;place-items:center;cursor:pointer;flex:0 0 auto;
+  font-family:inherit;font-size:10.5px;font-weight:800;transition:all .15s;
+}
+.iconbtn:active{transform:scale(.94)}
+.iconbtn svg{width:13px;height:13px}
+.iconbtn.del{color:#bf3d27;border-color:rgba(221,51,42,.26)}
+.iconbtn.del:hover{background:#fff5f3;border-color:rgba(221,51,42,.5)}
+.iconbtn.armed{width:auto;padding:0 8px;background:#dd332a;border-color:#b3221b;color:#fff}
+.re-input{
+  flex:1;min-width:0;font-family:inherit;font-size:16px;font-weight:700;color:var(--ink);
+  border:1px solid var(--line2);border-radius:9px;padding:5px 8px;background:#fbfcff;
+}
+.re-input:focus{outline:2px solid rgba(221,51,42,.3);outline-offset:0}
+.re-add{display:flex;gap:5px;margin-top:6px}
+.re-add .btn{flex:0 0 auto}
+.routine-foot{
+  position:sticky;bottom:-17px;display:flex;align-items:center;gap:8px;
+  margin-top:10px;padding:9px 0 3px;border-top:1px solid var(--line);
+  background:#fff;box-shadow:0 -10px 14px -12px rgba(14,27,56,.45);
+}
+.routine-foot .cnt{margin-left:auto;font-size:10px;font-weight:800;color:var(--muted);text-align:right;line-height:1.4}
+
+/* fx */
+.fx{position:fixed;inset:0;pointer-events:none;z-index:95;overflow:hidden}
+.spark{position:absolute;width:24px;height:24px;color:var(--red);opacity:0;animation:sparkUp 1.5s cubic-bezier(.2,.7,.3,1) forwards}
+.spark svg{width:100%;height:100%;display:block}
+@keyframes sparkUp{
+  0%{opacity:0;transform:translateY(14px) scale(.35) rotate(-22deg)}
+  22%{opacity:1}
+  100%{opacity:0;transform:translateY(-130px) scale(1.2) rotate(26deg)}
+}
+
+/* responsive */
+@media (max-width:1100px){
+  .info-grid{grid-template-columns:1fr 1.24fr 1.14fr}
+  .cols{grid-template-columns:.95fr 1.12fr 1fr}
+  .cols.morning{grid-template-columns:1.35fr 1fr;min-height:330px}
+  .hero h1{font-size:20px}
+}
+@media (max-width:960px){
+  .info-grid{grid-template-columns:1fr 1fr}
+  .quote-card{grid-column:span 2}
+  .cols,.cols.morning{grid-template-columns:1fr 1fr;min-height:0}
+  .hero{flex-wrap:wrap}
+}
+@media (max-width:860px){
+  .cols,.cols.morning{grid-template-columns:1fr}
+  .quote-card{grid-column:auto}
+  .info-grid{grid-template-columns:1fr}
+  .cols.morning #morningItems{grid-auto-rows:minmax(54px,auto)}
+}
+@media (max-width:680px){
+  body{padding:12px}
+  .info-grid,.cols,.cols.morning{grid-template-columns:1fr}
+  .quote-card{grid-column:auto}
+  .bar-row{grid-template-columns:1fr}
+  .hero h1{white-space:normal}
+  .mode-tab .sub{display:none}
+  .items.grid2{grid-template-columns:1fr}
+}
+@media (max-height:800px) and (min-width:941px){
+  .hero{padding:8px 15px}
+  .hero-av{width:54px;height:54px}
+  .hero h1{font-size:21px}
+  .hero-sub{font-size:11.5px}
+  .info-grid{gap:9px;margin-top:8px}
+  .card{padding:8px 14px 9px}
+  .clock{font-size:27px}
+  .bar-row{margin-top:9px;gap:9px}
+  .sched-bar{margin-top:7px;padding:5px 12px 5px 7px}
+  .cols{margin-top:8px;gap:9px}
+  .panel{padding:9px 11px 10px}
+  .item{min-height:40px;padding:5px 8px 5px 6px}
+  .item .ico{width:28px;height:28px;border-radius:9px}
+  .item .t{font-size:13.5px}
+  .items{gap:5px;margin-top:7px}
+  .reward-box{margin-top:7px;padding:6px 8px}
+  .reward-opts{margin-top:5px}
+  .reward-opt{padding:6px 4px;min-height:35px}
+  .timer{margin-top:7px;padding:6px 9px 7px}
+  .timer-time{font-size:23px}
+  .timer-btns{margin-top:6px}
+  .btn{min-height:31px;padding:6px 10px}
+  .stamp-summary{margin-top:7px;padding:7px 10px 8px}
+  .seal-slot{height:26px}
+  .praise{padding:5px 8px;margin-top:5px}
+  .week-strip{margin-top:5px;padding-top:4px}
+  .ss-num > b{font-size:30px}
+  .seal-grid{margin-top:5px}
+  .mission-list{margin-top:6px;gap:3px}
+  .reward-state{margin-top:6px;padding:5px 8px}
+  .order-card{gap:6px}
+  .order-card .step{padding:5px 9px}
+  .foot{margin:7px 3px 0}
+}
+/* one-screen board on landscape tablets: cards stay in place, their lists scroll instead */
+@media (min-width:941px){
+  body{height:100dvh;min-height:0;display:flex;flex-direction:column;overflow-y:auto}
+  .app{display:flex;flex-direction:column;flex:1 1 auto;min-height:0;width:100%}
+  .app > *{flex:0 0 auto}
+  .app > .cols{flex:1 1 auto;min-height:0}
+  .cols .col{min-height:0}
+  .cols .panel{min-height:0}
+  .cols .panel > *{flex:0 0 auto}
+  .cols .panel > .items{
+    flex:0 1 auto;min-height:0;overflow-y:auto;overscroll-behavior:contain;
+    padding:5px 2px;margin:3px -2px 0;
+  }
+  .cols .panel > .items.over{
+    -webkit-mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - 14px),rgba(0,0,0,0) 100%);
+    mask-image:linear-gradient(180deg,#000 0,#000 calc(100% - 14px),rgba(0,0,0,0) 100%);
+  }
+  .cols.morning #morningItems{min-height:0;overflow-y:auto;overscroll-behavior:contain}
+  .cols .col > .panel:only-child{flex:1 1 auto}
+  .cols .panel > .items::-webkit-scrollbar{width:5px}
+  .cols .panel > .items::-webkit-scrollbar-thumb{background:rgba(16,32,64,.18);border-radius:999px}
+  .cols .panel > .items::-webkit-scrollbar-track{background:transparent}
+}
+@media print{body{background:#fff}}
+</style>
+</head>
+<body>
+
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <defs>
+    <linearGradient id="mkRed" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#ff6f5f"/><stop offset=".5" stop-color="#df332b"/><stop offset="1" stop-color="#991c17"/>
+    </linearGradient>
+    <linearGradient id="mkBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#5b7ef0"/><stop offset="1" stop-color="#1b3380"/>
+    </linearGradient>
+
+    <symbol id="sf-spider" viewBox="0 0 24 24">
+      <ellipse cx="12" cy="14" rx="3.2" ry="4.1" fill="currentColor"/>
+      <circle cx="12" cy="8.9" r="2.3" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="1.6" stroke-linecap="round" fill="none">
+        <path d="M9 11.8L4.4 8.6M9 14L3.2 14M9 16.2L4.2 19.2"/>
+        <path d="M15 11.8l4.6-3.2M15 14h5.8M15 16.2l4.8 3"/>
+      </g>
+    </symbol>
+    <symbol id="sf-web" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="1.55" stroke-linecap="round">
+        <path d="M12 2.8v18.4M2.8 12h18.4M5.4 5.4l13.2 13.2M18.6 5.4L5.4 18.6"/>
+        <path d="M12 5.6c3.5 0 6.4 2.9 6.4 6.4S15.5 18.4 12 18.4 5.6 15.5 5.6 12 8.5 5.6 12 5.6z"/>
+        <path d="M12 8.6c1.9 0 3.4 1.5 3.4 3.4S13.9 15.4 12 15.4 8.6 13.9 8.6 12 10.1 8.6 12 8.6z"/>
+      </g>
+    </symbol>
+    <symbol id="sf-mask" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="9.4" fill="currentColor"/>
+      <path d="M9.9 10.1c-1-1.3-2.8-1.5-3.7-.6-.9.9-.9 2.6 0 3.5.8.9 2.3.9 3.1 0 .6-.7.8-1.9.6-2.9z" fill="#fff" stroke="#171226" stroke-width=".9"/>
+      <path d="M14.1 10.1c1-1.3 2.8-1.5 3.7-.6.9.9.9 2.6 0 3.5-.8.9-2.3.9-3.1 0-.6-.7-.8-1.9-.6-2.9z" fill="#fff" stroke="#171226" stroke-width=".9"/>
+    </symbol>
+    <symbol id="sf-spell" viewBox="0 0 24 24">
+      <path d="M3.4 19.6h6.4M3.4 16.2h4.4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M13.6 15.4L21 8a2.4 2.4 0 00-3.4-3.4l-7.4 7.4-1 4.4z" fill="currentColor"/>
+    </symbol>
+    <symbol id="sf-calc" viewBox="0 0 24 24">
+      <rect x="4.4" y="2.6" width="15.2" height="18.8" rx="3" fill="currentColor"/>
+      <rect x="7.2" y="5.4" width="9.6" height="3.8" rx="1.2" fill="#fff" opacity=".95"/>
+      <g fill="#fff" opacity=".95">
+        <rect x="7.2" y="11.4" width="2.9" height="2.7" rx="1"/><rect x="11.6" y="11.4" width="2.9" height="2.7" rx="1"/>
+        <rect x="7.2" y="15.8" width="2.9" height="2.7" rx="1"/><rect x="11.6" y="15.8" width="2.9" height="2.7" rx="1"/>
+        <rect x="16" y="11.4" width="1.7" height="7.1" rx=".85"/>
+      </g>
+    </symbol>
+    <symbol id="sf-drop" viewBox="0 0 24 24">
+      <path d="M12 2.2c3.5 4.3 6.3 7.8 6.3 11.4a6.3 6.3 0 01-12.6 0C5.7 10 8.5 6.5 12 2.2z" fill="currentColor"/>
+      <path d="M9.3 13.9a3 3 0 002.5 3.4" fill="none" stroke="#fff" stroke-width="1.7" stroke-linecap="round" opacity=".8"/>
+    </symbol>
+    <symbol id="sf-tooth" viewBox="0 0 24 24">
+      <path d="M6.5 3.4c2-1 3.4.3 5.5.3s3.5-1.3 5.5-.3c2.4 1.2 3 4.2 2.1 7.5-.5 2-1 5.1-1.6 7.5-.3 1.3-1 2-1.9 2-1.2 0-1.6-1.2-1.9-2.6-.3-1.4-.5-3.4-2.2-3.4s-1.9 2-2.2 3.4c-.3 1.4-.7 2.6-1.9 2.6-.9 0-1.6-.7-1.9-2-.6-2.4-1.1-5.5-1.6-7.5-.9-3.3-.3-6.3 2.1-7.5z" fill="currentColor"/>
+    </symbol>
+    <symbol id="sf-bowl" viewBox="0 0 24 24">
+      <path d="M3.4 11.8h17.2c0 5-3.8 8.8-8.6 8.8s-8.6-3.8-8.6-8.8z" fill="currentColor"/>
+      <path d="M2.6 11.8h18.8" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>
+      <g stroke="currentColor" stroke-width="1.7" stroke-linecap="round" opacity=".5">
+        <path d="M8.4 9.2c0-1.6 1.2-2.2 1.2-3.8M12 9.2c0-2 1.4-2.6 1.4-4.4M15.6 9.2c0-1.6 1.2-2.2 1.2-3.8"/>
+      </g>
+    </symbol>
+    <symbol id="sf-shield" viewBox="0 0 24 24">
+      <path d="M12 2.3l7.6 2.7v6.4c0 4.5-3.1 8.1-7.6 9.9-4.5-1.8-7.6-5.4-7.6-9.9V5L12 2.3z" fill="currentColor"/>
+      <path d="M12 7.4l1.25 2.55 2.8.34-2.06 1.94.54 2.77L12 13.7l-2.53 1.3.54-2.77-2.06-1.94 2.8-.34L12 7.4z" fill="#fff" opacity=".9"/>
+    </symbol>
+    <symbol id="sf-star" viewBox="0 0 24 24">
+      <path d="M12 3.2l2.62 5.31 5.86.85-4.24 4.13 1 5.84L12 16.55 6.76 19.33l1-5.84L3.52 9.36l5.86-.85z" fill="currentColor"/>
+    </symbol>
+    <symbol id="sf-bolt" viewBox="0 0 24 24">
+      <path d="M13.6 2.2L5.2 13.4h5.2l-1 8.4L19 10.3h-5.7z" fill="currentColor"/>
+    </symbol>
+    <symbol id="sf-reactor" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="8.4" fill="none" stroke="currentColor" stroke-width="2.1" opacity=".55"/>
+      <circle cx="12" cy="12" r="3.4" fill="currentColor"/>
+      <circle cx="12" cy="12" r="6" fill="none" stroke="currentColor" stroke-width=".9" opacity=".5"/>
+    </symbol>
+    <symbol id="sf-sun" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="4.3" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M18.7 5.3l-1.6 1.6M6.9 17.1l-1.6 1.6"/>
+      </g>
+    </symbol>
+    <symbol id="sf-check" viewBox="0 0 24 24">
+      <path d="M4.8 12.6l4.6 4.6L19.2 7.4" fill="none" stroke="currentColor" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="sf-gear" viewBox="0 0 24 24">
+      <path fill-rule="evenodd" clip-rule="evenodd" fill="currentColor" d="M12 2.4l1.7.3.5 2c.6.22 1.16.52 1.68.9l1.96-.72 1.35 1.35-.72 1.96c.38.52.68 1.08.9 1.68l2 .5.3 1.7-.3 1.7-2 .5c-.22.6-.52 1.16-.9 1.68l.72 1.96-1.35 1.35-1.96-.72c-.52.38-1.08.68-1.68.9l-.5 2-1.7.3-1.7-.3-.5-2c-.6-.22-1.16-.52-1.68-.9l-1.96.72-1.35-1.35.72-1.96c-.38-.52-.68-1.08-.9-1.68l-2-.5-.3-1.7.3-1.7 2-.5c.22-.6.52-1.16.9-1.68l-.72-1.96L5.85 5.88l1.96.72c.52-.38 1.08-.68 1.68-.9l.5-2L12 2.4zm0 6.4a3.2 3.2 0 100 6.4 3.2 3.2 0 000-6.4z"/>
+    </symbol>
+    <symbol id="sf-refresh" viewBox="0 0 24 24">
+      <path d="M19.8 12a7.8 7.8 0 11-2.3-5.5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>
+      <path d="M19.9 3.6v5.2h-5.2" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="sf-pencil" viewBox="0 0 24 24">
+      <path d="M3.6 20.4l1.1-4.5 10.7-10.7a2.4 2.4 0 013.4 0l.9.9a2.4 2.4 0 010 3.4L8.1 19.3l-4.5 1.1z" fill="currentColor"/>
+      <path d="M14.3 6.6l3.1 3.1" stroke="#fff" stroke-width="1.4" opacity=".65"/>
+    </symbol>
+    <symbol id="sf-play" viewBox="0 0 24 24"><path d="M7.6 4.6l12 7.4-12 7.4z" fill="currentColor"/></symbol>
+    <symbol id="sf-pause" viewBox="0 0 24 24"><rect x="6.4" y="4.6" width="4.2" height="14.8" rx="1.4" fill="currentColor"/><rect x="13.4" y="4.6" width="4.2" height="14.8" rx="1.4" fill="currentColor"/></symbol>
+    <symbol id="sf-reset" viewBox="0 0 24 24">
+      <path d="M4.2 12a7.8 7.8 0 101.9-5.1" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round"/>
+      <path d="M4 3.8v5h5" fill="none" stroke="currentColor" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="sf-gamepad" viewBox="0 0 24 24">
+      <path d="M7.4 7.5h9.2c2.1 0 3.6 1.5 4 3.6l1 5c.4 2.1-1 3.4-2.6 2.6l-1.9-1.1c-.6-.35-1.3-.55-2-.55H8.9c-.7 0-1.4.2-2 .55l-1.9 1.1C3.4 19.3 2 18 2.4 15.9l1-5c.4-2.1 1.9-3.4 4-3.4z" fill="currentColor"/>
+      <rect x="6" y="11" width="1.7" height="5" rx=".7" fill="#fff" opacity=".9"/>
+      <rect x="4.3" y="12.6" width="5" height="1.7" rx=".7" fill="#fff" opacity=".9"/>
+      <circle cx="16.2" cy="12" r="1.2" fill="#fff" opacity=".9"/><circle cx="18.4" cy="14.2" r="1.2" fill="#fff" opacity=".9"/>
+    </symbol>
+    <symbol id="sf-tv" viewBox="0 0 24 24">
+      <rect x="2.4" y="5" width="19.2" height="12.4" rx="2.6" fill="currentColor"/>
+      <rect x="4.8" y="7.4" width="14.4" height="7.6" rx="1.4" fill="#fff" opacity=".28"/>
+      <path d="M8 20.2h8" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="sf-book" viewBox="0 0 24 24">
+      <path d="M4 4.4h6.2c1.1 0 1.8.7 1.8 1.8v13c0-1.1-.7-1.8-1.8-1.8H4z" fill="currentColor"/>
+      <path d="M20 4.4h-6.2c-1.1 0-1.8.7-1.8 1.8v13c0-1.1.7-1.8 1.8-1.8H20z" fill="currentColor" opacity=".55"/>
+    </symbol>
+    <symbol id="sf-pill" viewBox="0 0 24 24">
+      <path d="M8.6 3.6l11.8 11.8a3.6 3.6 0 11-5.1 5.1L3.5 8.7a3.6 3.6 0 115.1-5.1z" fill="currentColor" opacity=".55"/>
+      <path d="M8.6 3.6l5.9 5.9-5.1 5.1-5.9-5.9a3.6 3.6 0 115.1-5.1z" fill="currentColor"/>
+    </symbol>
+    <symbol id="sf-close" viewBox="0 0 24 24">
+      <path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="sf-trash" viewBox="0 0 24 24">
+      <path d="M5 6.8h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M9.6 6.8V5.1c0-.8.6-1.4 1.4-1.4h2c.8 0 1.4.6 1.4 1.4v1.7" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/>
+      <path d="M6.9 6.8l.8 12.1c.05.95.83 1.7 1.8 1.7h4.9c.97 0 1.75-.75 1.8-1.7l.8-12.1" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/>
+      <path d="M10.4 10.4v6.6M13.6 10.4v6.6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" opacity=".55"/>
+    </symbol>
+    <symbol id="sf-save" viewBox="0 0 24 24">
+      <path d="M5 3.6h11.2L19.6 7v13.4H5z" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/>
+      <path d="M8.4 3.6v5h6.4v-5M8.4 20.4v-5.6h7.2v5.6" fill="none" stroke="currentColor" stroke-width="1.6"/>
+    </symbol>
+    <symbol id="sf-moon" viewBox="0 0 24 24">
+      <path d="M20 14.6A8.6 8.6 0 019.4 4a8.7 8.7 0 1010.6 10.6z" fill="currentColor"/>
+    </symbol>
+    <symbol id="sf-shirt" viewBox="0 0 24 24">
+      <path d="M8.6 3.4L4 6.6l1.9 4.1 2.1-1v11h8v-11l2.1 1L20 6.6l-4.6-3.2a3.5 3.5 0 01-6.8 0z" fill="currentColor" opacity=".8"/>
+    </symbol>
+    <symbol id="sf-backpack" viewBox="0 0 24 24">
+      <rect x="4.6" y="6.6" width="14.8" height="14" rx="3" fill="currentColor" opacity=".75"/>
+      <path d="M8.8 6.6V5.4a3.2 3.2 0 016.4 0v1.2" fill="none" stroke="currentColor" stroke-width="1.9"/>
+      <rect x="9" y="11.4" width="6" height="4.6" rx="1.4" fill="#fff" opacity=".8"/>
+      <path d="M4.6 14.6h14.8" stroke="#fff" stroke-width="1.2" opacity=".55"/>
+    </symbol>
+    <symbol id="sf-w-sun" viewBox="0 0 24 24">
+      <circle cx="12" cy="12" r="4.6" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
+        <path d="M12 2.2v2.6M12 19.2v2.6M2.2 12h2.6M19.2 12h2.6M5 5l1.9 1.9M17.1 17.1L19 19M19 5l-1.9 1.9M6.9 17.1L5 19"/>
+      </g>
+    </symbol>
+    <symbol id="sf-w-partly" viewBox="0 0 24 24">
+      <circle cx="9" cy="8.4" r="3.4" fill="#f0a41c"/>
+      <g stroke="#f0a41c" stroke-width="1.5" stroke-linecap="round">
+        <path d="M9 .8v1.9M9 14.1v1.9M1.4 8.4h1.9M14.7 8.4h1.9M3.6 3l1.4 1.4M13 12.4l1.4 1.4M14.4 3L13 4.4M5 12.4L3.6 13.8"/>
+      </g>
+      <path d="M8.6 20.4h8.8a3.1 3.1 0 00.3-6.2 4.5 4.5 0 00-8.6-1 3.4 3.4 0 00-.5 7.2z" fill="currentColor" opacity=".95"/>
+    </symbol>
+    <symbol id="sf-w-cloud" viewBox="0 0 24 24">
+      <path d="M7 19.4h10a3.6 3.6 0 00.35-7.2 5.2 5.2 0 00-9.95-1.15A3.9 3.9 0 007 19.4z" fill="currentColor"/>
+    </symbol>
+    <symbol id="sf-w-fog" viewBox="0 0 24 24">
+      <path d="M6.6 15.6h10.2a3.3 3.3 0 00.3-6.6 4.8 4.8 0 00-9.2-1A3.6 3.6 0 006.6 15.6z" fill="currentColor"/>
+      <g stroke="currentColor" stroke-width="1.7" stroke-linecap="round" opacity=".72">
+        <path d="M5 18.6h14M7 21.4h10"/>
+      </g>
+    </symbol>
+    <symbol id="sf-w-rain" viewBox="0 0 24 24">
+      <path d="M6.8 14.6h10.4a3.3 3.3 0 00.3-6.6 4.9 4.9 0 00-9.4-1 3.6 3.6 0 00-1.3 7.6z" fill="currentColor"/>
+      <g stroke="#3f7bdb" stroke-width="1.9" stroke-linecap="round">
+        <path d="M8 17.4l-1.1 3.2M12 17.4l-1.1 3.2M16 17.4l-1.1 3.2"/>
+      </g>
+    </symbol>
+    <symbol id="sf-w-snow" viewBox="0 0 24 24">
+      <path d="M6.8 14.2h10.4a3.3 3.3 0 00.3-6.6 4.9 4.9 0 00-9.4-1 3.6 3.6 0 00-1.3 7.6z" fill="currentColor"/>
+      <g stroke="#4f8ee6" stroke-width="1.6" stroke-linecap="round">
+        <path d="M8 18v3.4M6.4 19.7h3.2M12 18.4v3.4M10.4 20.1h3.2M16 18v3.4M14.4 19.7h3.2"/>
+      </g>
+    </symbol>
+    <symbol id="sf-w-thunder" viewBox="0 0 24 24">
+      <path d="M6.8 13.8h10.4a3.3 3.3 0 00.3-6.6 4.9 4.9 0 00-9.4-1 3.6 3.6 0 00-1.3 7.6z" fill="currentColor"/>
+      <path d="M13.2 15.2l-3.6 5h2.6l-.8 3.2 3.8-5.2h-2.6z" fill="#f0a41c"/>
+    </symbol>
+  </defs>
+</svg>
+
+<div class="app">
+  <header class="hero">
+    <div class="hero-av" aria-hidden="true">
+      <svg viewBox="0 0 128 128">
+        <clipPath id="avClip"><circle cx="64" cy="64" r="63"/></clipPath>
+        <g clip-path="url(#avClip)">
+          <rect width="128" height="128" fill="url(#mkRed)"/>
+          <g stroke="#4c0806" stroke-width="1.1" fill="none" opacity=".38">
+            <path d="M64 0v128M0 64h128M18 18l92 92M110 18L18 110M4 40l120 48M4 88l120-48"/>
+            <circle cx="64" cy="64" r="24"/><circle cx="64" cy="64" r="42"/><circle cx="64" cy="64" r="60"/>
+          </g>
+          <path d="M58 58C50 63 36 63 29 54 22 45 24 34 32 30c9-5 19 1 23 9 2 6 3 13 3 19z" fill="#f9fbff" stroke="#161026" stroke-width="3" stroke-linejoin="round"/>
+          <path d="M70 58c8 5 22 5 29-4 7-9 5-20-3-24-9-5-19 1-23 9-2 6-3 13-3 19z" fill="#f9fbff" stroke="#161026" stroke-width="3" stroke-linejoin="round"/>
+          <g fill="#161026">
+            <ellipse cx="64" cy="21" rx="2.8" ry="3.6"/>
+            <path d="M61.6 18.4l-8-3.4M61.4 21l-8.6.4M61.8 23.6l-7.4 5.2M66.4 18.4l8-3.4M66.6 21l8.6.4M66.2 23.6l7.4 5.2" stroke="#161026" stroke-width="1.9" stroke-linecap="round"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div class="hero-txt">
+      <h1>로운이의 스파이더 루틴</h1>
+      <p class="hero-sub"><svg aria-hidden="true"><use href="#sf-bolt"/></svg><span>오늘도 힘차게!</span></p>
+    </div>
+    <div class="hero-right">
+      <div class="stamp-pill" id="stampPill">
+        <span class="stamp-ic"><svg aria-hidden="true"><use href="#sf-spider"/></svg></span>
+        <span class="stamp-num" id="hdrToday">0</span>
+        <span class="stamp-lbl">오늘 도장<b>누적 <span id="hdrTotal">0</span>개</b></span>
+      </div>
+      <button class="gear" id="gearBtn" type="button" aria-label="설정 열기">
+        <svg aria-hidden="true"><use href="#sf-gear"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <section class="info-grid" aria-label="오늘의 정보">
+    <article class="card clock-card">
+      <div class="card-label">지금 시각</div>
+      <div class="clock"><span id="clockHM">00:00</span><span class="sec" id="clockS">00</span></div>
+      <div class="clock-date" id="clockDate">—</div>
+      <div class="clock-cheer"><svg aria-hidden="true"><use href="#sf-spider"/></svg><span id="clockCheer">오늘도 화이팅!</span></div>
+    </article>
+
+    <article class="card weather-card">
+      <div class="wx-head">
+        <div class="card-label">우리 동네 날씨 · <span class="loc">위례동</span></div>
+        <button class="mini-btn" id="wxRefresh" type="button" aria-label="날씨 새로고침">
+          <svg aria-hidden="true"><use href="#sf-refresh"/></svg>
+        </button>
+      </div>
+      <div class="wx-main">
+        <div class="wx-ic" id="wxIcon" aria-hidden="true"><svg><use href="#sf-w-cloud"/></svg></div>
+        <div class="wx-temp" id="wxTemp">--°</div>
+        <div class="wx-desc" id="wxDesc">불러오는 중…</div>
+      </div>
+      <div class="wx-meta">
+        <span class="range" id="wxRange">최저 -- · 최고 --</span>
+        <span class="asof" id="wxAsof"></span>
+      </div>
+    </article>
+
+    <article class="card quote-card" id="quoteCard" role="button" tabindex="0" aria-label="오늘의 한마디, 눌러서 다음 문구">
+      <div class="card-label">오늘의 한마디 <span class="tap-hint">눌러서 다음</span></div>
+      <p class="quote" id="quoteText">엄마 아빠는 언제나 로운이를 사랑해요.</p>
+    </article>
+  </section>
+
+  <section class="bar-row">
+    <div class="mode-tabs" role="tablist" aria-label="루틴 모드">
+      <button class="mode-tab" type="button" data-mode="morning" role="tab" aria-selected="false">
+        <svg aria-hidden="true"><use href="#sf-sun"/></svg><span>아침</span><span class="sub">등교</span>
+      </button>
+      <button class="mode-tab active" type="button" data-mode="after" role="tab" aria-selected="true">
+        <svg aria-hidden="true"><use href="#sf-moon"/></svg><span>저녁</span><span class="sub">밤 9시</span>
+      </button>
+    </div>
+    <div class="memo-bar" id="memoBar">
+      <svg aria-hidden="true"><use href="#sf-pencil"/></svg>
+      <span class="lbl">메모</span>
+      <div class="memo-text empty" id="memoText">오늘 할 일을 적어 두세요</div>
+      <button class="icon-edit" id="memoEdit" type="button" aria-label="메모 수정">
+        <svg aria-hidden="true"><use href="#sf-pencil"/></svg>
+      </button>
+    </div>
+  </section>
+
+  <section class="sched-bar" id="schedBar">
+    <div class="date-chip"><span class="d-num" id="schedDayNum">1</span><span class="d-wd" id="schedWd">월</span></div>
+    <div class="sched-body">
+      <span class="sched-label">오후 일정</span>
+      <span class="sched-text" id="schedText"></span>
+    </div>
+    <button class="icon-edit" id="schedEdit" type="button" aria-label="일정 수정">
+      <svg aria-hidden="true"><use href="#sf-pencil"/></svg>
+    </button>
+  </section>
+
+  <main class="cols" id="afternoonView">
+    <div class="col">
+      <article class="card panel panel-vit">
+        <header class="panel-head">
+          <span class="panel-ic"><svg aria-hidden="true"><use href="#sf-web"/></svg></span>
+          <div class="panel-title"><h2>영양제 · 칭찬</h2></div>
+          <button class="panel-edit" type="button" data-edit-group="vit" aria-label="영양제 루틴 편집"><svg aria-hidden="true"><use href="#sf-pencil"/></svg></button>
+          <span class="seal-pill"><svg aria-hidden="true"><use href="#sf-spider"/></svg><span id="vitPill">0 / 1</span></span>
+        </header>
+        <div class="items" id="vitItems"></div>
+
+        <div class="stamp-summary">
+          <div class="ss-head"><span>오늘 모은 도장</span><span class="rank" id="rankBadge">루키 스파이더</span></div>
+          <div class="ss-num">
+            <b id="todayStamps">0</b><span class="u">개</span>
+            <span class="ss-total">누적 <b id="totalStamps">0</b>개</span>
+          </div>
+          <div class="seal-grid" id="sealGrid"></div>
+        </div>
+
+        <div class="praise" id="praiseLine"><svg aria-hidden="true"><use href="#sf-spider"/></svg><span id="praiseText">스파이더 루틴 시작!</span></div>
+        <div class="mission-list" id="missionList"></div>
+        <div class="week-strip">
+          <div class="ws-head"><span>이번 주 도장</span><b id="weekTotal">0개</b></div>
+          <div class="ws-days" id="wsBars"></div>
+        </div>
+        <div class="reward-state" id="rewardState">보상까지 3개</div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card panel panel-study">
+        <header class="panel-head">
+          <span class="panel-ic"><svg aria-hidden="true"><use href="#sf-spider"/></svg></span>
+          <div class="panel-title"><h2>공부 &amp; 보상</h2></div>
+          <button class="panel-edit" type="button" data-edit-group="study" aria-label="공부 루틴 편집"><svg aria-hidden="true"><use href="#sf-pencil"/></svg></button>
+          <span class="seal-pill blue"><svg aria-hidden="true"><use href="#sf-check"/></svg><span id="studyPill">0 / 3</span></span>
+        </header>
+        <div class="items" id="studyItems"></div>
+
+        <div class="reward-box">
+          <div class="reward-title"><svg aria-hidden="true"><use href="#sf-bolt"/></svg>보상 하나<span>공부 다 하면!</span></div>
+          <div class="reward-opts">
+            <button class="reward-opt" type="button" data-reward="game"><svg aria-hidden="true"><use href="#sf-gamepad"/></svg><span>게임 1시간</span></button>
+            <button class="reward-opt" type="button" data-reward="tv"><svg aria-hidden="true"><use href="#sf-tv"/></svg><span>TV 1시간</span></button>
+          </div>
+          <div class="reward-note" id="rewardNote">공부 다 하면 열려요</div>
+        </div>
+
+        <div class="timer">
+          <div class="timer-head"><span>보상 <b>60분</b></span><span class="timer-state" id="timerState">대기 중</span></div>
+          <div class="timer-time" id="timerTime">60:00</div>
+          <div class="bar" id="timerBarWrap"><i id="timerBar" style="width:100%"></i></div>
+          <div class="timer-btns">
+            <button class="btn primary" id="timerStart" type="button"><svg aria-hidden="true"><use href="#sf-play"/></svg>시작</button>
+            <button class="btn ghost" id="timerPause" type="button"><svg aria-hidden="true"><use href="#sf-pause"/></svg>멈춤</button>
+            <button class="btn ghost" id="timerReset" type="button"><svg aria-hidden="true"><use href="#sf-reset"/></svg>초기화</button>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <div class="col">
+      <article class="card panel panel-ready">
+        <header class="panel-head">
+          <span class="panel-ic"><svg aria-hidden="true"><use href="#sf-shield"/></svg></span>
+          <div class="panel-title">
+            <h2>잘 준비</h2>
+            <span class="night" id="nightBadge"><svg aria-hidden="true"><use href="#sf-moon"/></svg><b id="nightText">밤 9시 시작</b></span>
+          </div>
+          <button class="panel-edit" type="button" data-edit-group="ready" aria-label="잘 준비 루틴 편집"><svg aria-hidden="true"><use href="#sf-pencil"/></svg></button>
+          <span class="seal-pill red"><svg aria-hidden="true"><use href="#sf-check"/></svg><span id="readyPill">0 / 3</span></span>
+        </header>
+        <div class="bar red"><i id="readyBar" style="width:0%"></i></div>
+        <div class="items" id="readyItems"></div>
+      </article>
+      <article class="card mini-card order-card">
+        <h3><svg aria-hidden="true"><use href="#sf-web"/></svg>잘 준비 순서</h3>
+        <div class="steps" id="readySteps"></div>
+        <p class="order-note" id="orderNote">다 하면 오늘 도장 완성!</p>
+      </article>
+    </div>
+  </main>
+
+  <main class="cols morning" id="morningView" hidden>
+    <div class="col">
+      <article class="card panel panel-morning">
+        <header class="panel-head">
+          <span class="panel-ic"><svg aria-hidden="true"><use href="#sf-sun"/></svg></span>
+          <div class="panel-title"><h2>아침 루틴</h2></div>
+          <button class="panel-edit" type="button" data-edit-group="morning" aria-label="아침 준비 루틴 편집"><svg aria-hidden="true"><use href="#sf-pencil"/></svg></button>
+          <span class="seal-pill amber"><svg aria-hidden="true"><use href="#sf-check"/></svg><span id="morningPill">0 / 4</span></span>
+        </header>
+        <div class="bar amber"><i id="morningBar" style="width:0%"></i></div>
+        <div class="items grid2" id="morningItems"></div>
+      </article>
+    </div>
+    <div class="col">
+      <article class="card mini-card">
+        <h3><svg aria-hidden="true"><use href="#sf-shirt"/></svg>오늘 옷차림</h3>
+        <p id="morningWeather">날씨를 불러오는 중…</p>
+        <div class="chips" id="morningChips">
+          <span class="chip">물통</span><span class="chip">알림장</span><span class="chip">필통</span><span class="chip">겉옷</span>
+        </div>
+      </article>
+      <article class="card mini-card">
+        <h3><svg aria-hidden="true"><use href="#sf-backpack"/></svg>오후 일정</h3>
+        <p id="morningSched">—</p>
+      </article>
+      <article class="card mini-card morning-cheer">
+        <h3><svg aria-hidden="true"><use href="#sf-spider"/></svg>오늘의 응원</h3>
+        <p id="morningQuote">엄마 아빠는 언제나 로운이를 사랑해요.</p>
+        <svg class="cheer-deco" aria-hidden="true" viewBox="0 0 24 24"><use href="#sf-spider"/></svg>
+      </article>
+    </div>
+  </main>
+
+  <footer class="foot">
+    <span class="cheer">오늘도 수고했어요, 로운이!</span>
+    <span class="save"><svg aria-hidden="true"><use href="#sf-save"/></svg>자동 저장</span>
+  </footer>
+</div>
+
+<div class="fx" id="fx" aria-hidden="true"></div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<div class="modal" id="settingsModal" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-label="설정">
+    <header>
+      <h3><svg aria-hidden="true"><use href="#sf-gear"/></svg>설정</h3>
+      <button class="close" type="button" data-close="settingsModal" aria-label="닫기"><svg aria-hidden="true"><use href="#sf-close"/></svg></button>
+    </header>
+    <div class="set-row">
+      <div><b>루틴 항목 편집</b><p>공부 · 영양제 · 잘 준비 · 아침 준비 목록을 추가하거나 바꿀 수 있어요.</p></div>
+      <button class="btn primary" type="button" id="openRoutineEdit">편집</button>
+    </div>
+    <div class="set-row">
+      <div><b>오늘 체크 초기화</b><p>오늘 한 체크만 지워요. 누적 도장은 그대로 남아요.</p></div>
+      <button class="btn danger" type="button" id="resetToday">초기화</button>
+    </div>
+    <div class="set-row">
+      <div><b>누적 도장 조정</b><p>지금까지 모은 도장 수를 직접 고칠 수 있어요.</p></div>
+      <div class="stepper">
+        <button class="stepbtn" type="button" id="adjMinus" aria-label="줄이기">−</button>
+        <input id="adjInput" type="number" inputmode="numeric" min="0" step="1" value="0" aria-label="누적 도장 수">
+        <button class="stepbtn" type="button" id="adjPlus" aria-label="늘리기">+</button>
+        <button class="btn ghost sm" type="button" id="adjSave">저장</button>
+      </div>
+    </div>
+    <div class="set-row">
+      <div><b>누적 도장 초기화</b><p>모든 날의 도장 기록을 처음부터 다시 시작해요.</p></div>
+      <button class="btn danger" type="button" id="resetTotal">초기화</button>
+    </div>
+    <div class="set-note">이 태블릿에만 저장돼요 · 날짜가 바뀌면 오늘 체크는 새로 시작해요</div>
+  </div>
+</div>
+
+<div class="modal" id="routineModal" hidden>
+  <div class="sheet routine-sheet" role="dialog" aria-modal="true" aria-label="루틴 편집">
+    <header>
+      <h3><svg aria-hidden="true"><use href="#sf-pencil"/></svg>루틴 편집</h3>
+      <button class="close" type="button" data-close="routineModal" aria-label="닫기"><svg aria-hidden="true"><use href="#sf-close"/></svg></button>
+    </header>
+    <p class="routine-lead">이름을 바꾸거나 지우고, 새 루틴을 더할 수 있어요. 바꾼 목록은 이 태블릿에 저장돼요.</p>
+    <div class="routine-editor" id="routineEditor"></div>
+    <div class="routine-foot">
+      <button class="btn danger" type="button" id="routineReset">기본값으로 복원</button>
+      <span class="cnt" id="routineCount"></span>
+    </div>
+  </div>
+</div>
+
+<div class="modal" id="doneModal" hidden>
+  <div class="sheet done-sheet" role="dialog" aria-modal="true" aria-label="보상 시간 종료">
+    <svg class="done-star" aria-hidden="true" viewBox="0 0 24 24"><use href="#sf-spider"/></svg>
+    <h3>보상 시간 끝!</h3>
+    <p>60분 꽉 채웠어요.<br>이제 잘 준비 할까요?</p>
+    <div class="done-btns">
+      <button class="btn primary" type="button" id="doneAgain">다시 60분</button>
+      <button class="btn ghost" type="button" id="doneClose">확인</button>
+    </div>
+  </div>
+</div>
+
+<noscript><p style="text-align:center;font-weight:800;padding:20px">체크를 쓰려면 사파리에서 자바스크립트를 켜 주세요.</p></noscript>
+
+<script>
+(function () {
+  'use strict';
+
+  var STORE_KEY = 'rounAvengersRoutine_v1';
+  var TIMER_TOTAL = 60 * 60;
+  var WD = ['일', '월', '화', '수', '목', '금', '토'];
+
+  var DEFAULT_ITEMS = [
+    { id: 'kor',    group: 'study',   label: '맞춤법 2장',      seal: 'spell' },
+    { id: 'math',   group: 'study',   label: '수학',            seal: 'calc' },
+    { id: 'eng',    group: 'study',   label: '리딩게이트 1권',  seal: 'book' },
+    { id: 'vit',    group: 'vit',     label: '비타민',          seal: 'pill' },
+    { id: 'shower', group: 'ready',   label: '샤워',            seal: 'drop' },
+    { id: 'teeth',  group: 'ready',   label: '양치',            seal: 'tooth' },
+    { id: 'read',   group: 'ready',   label: '독서 + 독서통장', seal: 'book' },
+    { id: 'wake',   group: 'morning', label: '기상',            seal: 'sun' },
+    { id: 'wash',   group: 'morning', label: '세수 · 양치',     seal: 'drop' },
+    { id: 'meal',   group: 'morning', label: '아침밥',          seal: 'bowl' },
+    { id: 'school', group: 'morning', label: '등교 준비',       seal: 'backpack' }
+  ];
+
+  var GROUPS = [
+    { key: 'study',   name: '공부',      seal: 'spider', hint: '예: 한자 1장' },
+    { key: 'vit',     name: '영양제',    seal: 'web',    hint: '예: 오메가3' },
+    { key: 'ready',   name: '잘 준비',   seal: 'shield', hint: '예: 내일 옷 챙기기' },
+    { key: 'morning', name: '아침 준비', seal: 'sun',    hint: '예: 물통 챙기기' }
+  ];
+  var GROUP_LIMIT = 6;
+  var TOTAL_LIMIT = 14;
+  var SEAL_POOL = ['spider', 'web', 'mask', 'bolt', 'shield'];
+  var LABEL_MAX = 30;
+
+  function cloneItem(it) { return { id: it.id, group: it.group, label: it.label, seal: it.seal }; }
+  function defaultItems() { return DEFAULT_ITEMS.map(cloneItem); }
+
+  /* editable routine list: defaults until the parent changes something */
+  var ITEMS = defaultItems();
+
+  var MATH_MODE = {
+    todo:   { label: '토도수학',     when: '월·화·금' },
+    calc:   { label: '기적의 계산법', when: '수·목' },
+    review: { label: '주말 복습',     when: '토·일' }
+  };
+  var MATH_ORDER = ['todo', 'calc', 'review'];
+
+  var QUOTES = [
+    '엄마 아빠는 언제나 로운이를 사랑해요.',
+    '로운이는 할 수 있어요. 천천히 해도 괜찮아요.',
+    '오늘 하루도 로운이 편이에요!',
+    '히어로는 쉬는 법도 알고 있단다.',
+    '잘 안 되는 날엔 다시 하면 돼요.',
+    '로운이의 작은 노력이 큰 힘이 돼요.',
+    '용감한 건 무섭지 않은 게 아니라 한 걸음 더 나아가는 거래요.',
+    '하나씩 해내는 로운이, 정말 멋져요.',
+    '힘들면 기대도 돼요. 엄마 아빠가 있어요.',
+    '실수해도 괜찮아요. 히어로도 처음엔 초보였어요.',
+    '로운이만의 속도로 가면 돼요.',
+    '오늘 로운이가 해낸 건 전부 기억해 둘게요.',
+    '로운이 웃는 얼굴이 우리 집 제일 큰 힘이에요.',
+    '내일의 로운이가 오늘의 로운이를 자랑스러워할 거예요.'
+  ];
+
+  var WEEK_SCHEDULE = {
+    0: '15:30 아이스하키 (17:30 종료)',
+    1: '18:30 리틀트리 (20:30 종료)',
+    2: '17:40 테니스 레슨 (18:40 종료)',
+    3: '19:00 리틀트리 (21:30 종료)',
+    4: '14:50 돌봄 하교 · 15:00 자라다 (16:30 종료)',
+    5: '19:00 아이스하키 (21:30 종료)',
+    6: '오늘은 정해진 일정이 없어요. 여유롭게 보내요!'
+  };
+
+  var WX_URL = 'https://api.open-meteo.com/v1/forecast?latitude=37.475&longitude=127.142&current=temperature_2m,weather_code&daily=temperature_2m_max,temperature_2m_min&timezone=Asia%2FSeoul';
+
+  function $(id) { return document.getElementById(id); }
+  function pad2(n) { return (n < 10 ? '0' : '') + n; }
+
+  function el() {
+    return {
+      clockHM: $('clockHM'), clockS: $('clockS'), clockDate: $('clockDate'), clockCheer: $('clockCheer'),
+      wxIcon: $('wxIcon'), wxTemp: $('wxTemp'), wxDesc: $('wxDesc'), wxRange: $('wxRange'),
+      wxAsof: $('wxAsof'), wxRefresh: $('wxRefresh'),
+      quoteText: $('quoteText'), quoteCard: $('quoteCard'),
+      hdrToday: $('hdrToday'), hdrTotal: $('hdrTotal'),
+      memoBar: $('memoBar'), memoText: $('memoText'), memoEdit: $('memoEdit'),
+      schedBar: $('schedBar'), schedText: $('schedText'), schedEdit: $('schedEdit'),
+      schedDayNum: $('schedDayNum'), schedWd: $('schedWd'),
+      studyItems: $('studyItems'), vitItems: $('vitItems'), readyItems: $('readyItems'),
+      morningItems: $('morningItems'),
+      studyPill: $('studyPill'), vitPill: $('vitPill'), readyPill: $('readyPill'), morningPill: $('morningPill'),
+      readyBar: $('readyBar'), morningBar: $('morningBar'),
+      todayStamps: $('todayStamps'), totalStamps: $('totalStamps'), sealGrid: $('sealGrid'),
+      rankBadge: $('rankBadge'), missionList: $('missionList'), rewardState: $('rewardState'),
+      wsBars: $('wsBars'), weekTotal: $('weekTotal'),
+      praiseText: $('praiseText'),
+      rewardNote: $('rewardNote'),
+      timerTime: $('timerTime'), timerBar: $('timerBar'), timerState: $('timerState'),
+      timerStart: $('timerStart'), timerPause: $('timerPause'), timerReset: $('timerReset'),
+      toast: $('toast'), fx: $('fx'),
+      settingsModal: $('settingsModal'), doneModal: $('doneModal'),
+      nightBadge: $('nightBadge'), nightText: $('nightText'), readySteps: $('readySteps'),
+      routineModal: $('routineModal'), routineList: $('routineEditor'),
+      routineCount: $('routineCount'), routineReset: $('routineReset'), openRoutineEdit: $('openRoutineEdit'),
+      adjInput: $('adjInput'), resetToday: $('resetToday'), resetTotal: $('resetTotal'),
+      adjMinus: $('adjMinus'), adjPlus: $('adjPlus'), adjSave: $('adjSave'),
+      afternoonView: $('afternoonView'), morningView: $('morningView'),
+      morningWeather: $('morningWeather'), morningChips: $('morningChips'), morningSched: $('morningSched'),
+      morningQuote: $('morningQuote'),
+      gearBtn: $('gearBtn')
+    };
+  }
+
+  var E = null;
+
+  /* ---------------- storage ---------------- */
+  var store = { v: 1, mode: null, stamps: {}, adjust: 0, weather: null, days: {}, items: null };
+  var memoryOnly = false;
+
+  function load() {
+    try {
+      var raw = window.localStorage.getItem(STORE_KEY);
+      if (raw) {
+        var p = JSON.parse(raw);
+        if (p && p.v === 1) {
+          store.mode = p.mode || null;
+          store.stamps = p.stamps || {};
+          store.adjust = typeof p.adjust === 'number' ? p.adjust : 0;
+          store.weather = p.weather || null;
+          store.days = p.days || {};
+          store.items = normalizeItems(p.items);
+        }
+      }
+    } catch (e) {
+      memoryOnly = true;
+    }
+    ITEMS = store.items ? store.items.slice() : defaultItems();
+  }
+
+  var saveQueued = false;
+  function save() {
+    if (saveQueued) return;
+    saveQueued = true;
+    window.setTimeout(function () {
+      saveQueued = false;
+      writeNow();
+    }, 120);
+  }
+  function writeNow() {
+    try {
+      window.localStorage.setItem(STORE_KEY, JSON.stringify(store));
+    } catch (e) {
+      memoryOnly = true;
+    }
+  }
+
+  /* ---------------- date & day state ---------------- */
+  function todayKey(d) {
+    var t = d || new Date();
+    return t.getFullYear() + '-' + pad2(t.getMonth() + 1) + '-' + pad2(t.getDate());
+  }
+
+  function newDay() {
+    return {
+      checks: {}, mathMode: null, reward: null, memo: '', schedule: null, quote: null,
+      timer: { remaining: TIMER_TOTAL, running: false, endsAt: null }
+    };
+  }
+
+  function dayState(key) {
+    var k = key || todayKey();
+    var d = store.days[k];
+    if (!d) { d = newDay(); store.days[k] = d; }
+    if (!d.checks) d.checks = {};
+    if (!d.timer) d.timer = { remaining: TIMER_TOTAL, running: false, endsAt: null };
+    if (typeof d.timer.remaining !== 'number') d.timer.remaining = TIMER_TOTAL;
+    return d;
+  }
+
+  function pruneDays() {
+    var keys = Object.keys(store.days);
+    if (keys.length <= 45) return;
+    keys.sort();
+    var drop = keys.slice(0, keys.length - 45);
+    for (var i = 0; i < drop.length; i++) delete store.days[drop[i]];
+    var sk = Object.keys(store.stamps).sort();
+    if (sk.length > 120) {
+      for (var j = 0; j < sk.length - 120; j++) delete store.stamps[sk[j]];
+    }
+  }
+
+  function totalStamps() {
+    var sum = 0, k;
+    for (k in store.stamps) {
+      if (Object.prototype.hasOwnProperty.call(store.stamps, k)) sum += store.stamps[k] || 0;
+    }
+    return Math.max(0, sum + (store.adjust || 0));
+  }
+  function stampsToday() {
+    return Math.max(0, store.stamps[todayKey()] || 0);
+  }
+
+  /* ---------------- icons ---------------- */
+  function icon(name, cls) {
+    return '<svg class="' + (cls || '') + '" aria-hidden="true"><use href="#sf-' + name + '"/></svg>';
+  }
+  function itemById(id) {
+    for (var i = 0; i < ITEMS.length; i++) if (ITEMS[i].id === id) return ITEMS[i];
+    return null;
+  }
+
+  /* ---------------- routine list editing (data) ---------------- */
+  var idSeq = 0;
+  function newId() {
+    idSeq++;
+    return 'c' + Date.now().toString(36) + idSeq.toString(36) + Math.floor(Math.random() * 1296).toString(36);
+  }
+
+  function cleanLabel(v) {
+    if (typeof v !== 'string') return '';
+    var s = v.replace(/\s+/g, ' ').trim();
+    if (s.length > LABEL_MAX) s = s.slice(0, LABEL_MAX).replace(/\s+$/, '');
+    return s;
+  }
+
+  function validGroup(k) {
+    for (var i = 0; i < GROUPS.length; i++) if (GROUPS[i].key === k) return true;
+    return false;
+  }
+
+  function normalizeItems(raw) {
+    if (!Array.isArray(raw)) return null;
+    var out = [], seen = {}, i, it, label, id;
+    for (i = 0; i < raw.length; i++) {
+      if (out.length >= TOTAL_LIMIT) break;
+      it = raw[i];
+      if (!it || typeof it !== 'object') continue;
+      if (!validGroup(it.group)) continue;
+      label = cleanLabel(it.label);
+      if (!label) continue;
+      id = (typeof it.id === 'string' && it.id) ? it.id : newId();
+      if (seen[id]) id = newId();
+      seen[id] = true;
+      out.push({
+        id: id,
+        group: it.group,
+        label: label,
+        seal: (typeof it.seal === 'string' && it.seal) ? it.seal : 'star'
+      });
+    }
+    return out;
+  }
+
+  function itemsOf(group) {
+    var out = [], i;
+    for (i = 0; i < ITEMS.length; i++) if (ITEMS[i].group === group) out.push(ITEMS[i]);
+    return out;
+  }
+
+  function groupBox(group) {
+    if (!E) return null;
+    if (group === 'study') return E.studyItems;
+    if (group === 'vit') return E.vitItems;
+    if (group === 'ready') return E.readyItems;
+    if (group === 'morning') return E.morningItems;
+    return null;
+  }
+
+  /* keep today's stamp count in step with the routines that still exist */
+  function recountToday() {
+    var d = dayState(), n = 0, i;
+    for (i = 0; i < ITEMS.length; i++) if (d.checks[ITEMS[i].id]) n++;
+    store.stamps[todayKey()] = n;
+  }
+
+  function commitItems() {
+    store.items = ITEMS.slice();
+    recountToday();
+    save();
+    buildAllRows();
+    updateRows();
+    renderStamps();
+    renderReward();
+    syncItemOverflow();
+  }
+
+  /* fade the last row of a card when its list is longer than the card */
+  function syncItemOverflow() {
+    var lists = document.querySelectorAll('.panel > .items');
+    for (var i = 0; i < lists.length; i++) {
+      var box = lists[i];
+      if (!box.clientHeight) { box.classList.remove('over'); continue; }
+      box.classList.toggle('over', box.scrollHeight > box.clientHeight + 2);
+    }
+  }
+
+  function addRoutine(group, rawLabel) {
+    var label = cleanLabel(rawLabel);
+    if (!validGroup(group)) return null;
+    if (!label) { toast('루틴 이름을 먼저 적어 주세요'); return null; }
+    if (itemsOf(group).length >= GROUP_LIMIT) { toast('한 그룹에는 ' + GROUP_LIMIT + '개까지 넣을 수 있어요'); return null; }
+    if (ITEMS.length >= TOTAL_LIMIT) { toast('루틴은 모두 ' + TOTAL_LIMIT + '개까지 넣을 수 있어요'); return null; }
+    var it = { id: newId(), group: group, label: label, seal: SEAL_POOL[ITEMS.length % SEAL_POOL.length] };
+    var idx = -1, i;
+    for (i = ITEMS.length - 1; i >= 0; i--) {
+      if (ITEMS[i].group === group) { idx = i; break; }
+    }
+    if (idx < 0) ITEMS.push(it); else ITEMS.splice(idx + 1, 0, it);
+    commitItems();
+    var box = groupBox(group);
+    if (box) box.scrollTop = box.scrollHeight;
+    return it;
+  }
+
+  function renameRoutine(id, rawLabel) {
+    var it = itemById(id);
+    var label = cleanLabel(rawLabel);
+    if (!it || !label) return false;
+    it.label = label;
+    commitItems();
+    return true;
+  }
+
+  function removeRoutine(id) {
+    var idx = -1, i;
+    for (i = 0; i < ITEMS.length; i++) if (ITEMS[i].id === id) { idx = i; break; }
+    if (idx < 0) return null;
+    var removed = ITEMS.splice(idx, 1)[0];
+    commitItems();
+    return removed;
+  }
+
+  function resetRoutines() {
+    ITEMS = defaultItems();
+    commitItems();
+    renderRoutineEditor();
+    toast('로운이의 기본 루틴으로 되돌렸어요');
+  }
+
+  /* ---------------- item rows ---------------- */
+  function buildRow(item) {
+    var row = document.createElement('div');
+    row.className = 'item';
+    row.setAttribute('role', 'button');
+    row.setAttribute('tabindex', '0');
+    row.setAttribute('aria-pressed', 'false');
+    row.setAttribute('data-id', item.id);
+
+    var ico = document.createElement('span');
+    ico.className = 'ico';
+    ico.innerHTML = icon(item.seal);
+
+    var t = document.createElement('span');
+    t.className = 't';
+    var main = document.createElement('span');
+    main.className = 't-main';
+    main.textContent = item.label;
+    t.appendChild(main);
+
+    row.appendChild(ico);
+    row.appendChild(t);
+
+    if (item.id === 'math') {
+      var subEl = document.createElement('span');
+      subEl.className = 'sub2';
+      subEl.id = 'mathSub';
+      t.appendChild(subEl);
+
+      var swap = document.createElement('button');
+      swap.type = 'button';
+      swap.className = 'swap';
+      swap.setAttribute('data-act', 'swap');
+      swap.textContent = '바꾸기';
+      row.appendChild(swap);
+    }
+
+    var chk = document.createElement('span');
+    chk.className = 'check';
+    chk.innerHTML = icon('check');
+    row.appendChild(chk);
+
+    return row;
+  }
+
+  function buildAllRows() {
+    var i, it, g;
+    var maps = { study: E.studyItems, vit: E.vitItems, ready: E.readyItems, morning: E.morningItems };
+    for (g in maps) {
+      if (Object.prototype.hasOwnProperty.call(maps, g)) maps[g].innerHTML = '';
+    }
+    for (i = 0; i < ITEMS.length; i++) {
+      it = ITEMS[i];
+      if (maps[it.group]) maps[it.group].appendChild(buildRow(it));
+    }
+  }
+
+  function currentMathMode() {
+    var d = dayState();
+    if (d.mathMode && MATH_MODE[d.mathMode]) return d.mathMode;
+    var dow = new Date().getDay();
+    if (dow === 1 || dow === 2 || dow === 5) return 'todo';
+    if (dow === 3 || dow === 4) return 'calc';
+    return 'review';
+  }
+
+  function updateRows() {
+    var d = dayState();
+    var rows = document.querySelectorAll('.item');
+    for (var i = 0; i < rows.length; i++) {
+      var row = rows[i];
+      var on = !!d.checks[row.getAttribute('data-id')];
+      row.classList.toggle('on', on);
+      row.setAttribute('aria-pressed', on ? 'true' : 'false');
+    }
+    var mathRow = document.querySelector('.item[data-id="math"]');
+    if (mathRow) {
+      var m = MATH_MODE[currentMathMode()];
+      var mit = itemById('math');
+      var mainEl = mathRow.querySelector('.t-main');
+      if (mainEl) mainEl.textContent = (!mit || mit.label === '수학') ? m.label : mit.label;
+      var sub = $('mathSub');
+      if (sub) sub.textContent = m.when;
+    }
+  }
+
+  /* ---------------- stamps & summary ---------------- */
+  function rankFor(n) {
+    if (n >= 10) return '레전드 스파이더';
+    if (n >= 7) return '슈퍼 스파이더';
+    if (n >= 4) return '스파이더 히어로';
+    if (n >= 1) return '주니어 스파이더';
+    return '루키 스파이더';
+  }
+
+  function groupCount(group) {
+    var d = dayState(), total = 0, done = 0;
+    for (var i = 0; i < ITEMS.length; i++) {
+      if (ITEMS[i].group !== group) continue;
+      total++;
+      if (d.checks[ITEMS[i].id]) done++;
+    }
+    return { done: done, total: total };
+  }
+
+  function pctOf(o) {
+    return o.total > 0 ? Math.round((o.done / o.total) * 100) : 0;
+  }
+
+  function renderStamps() {
+    var today = stampsToday();
+    var total = totalStamps();
+    E.hdrToday.textContent = String(today);
+    E.hdrTotal.textContent = String(total);
+    E.todayStamps.textContent = String(today);
+    E.totalStamps.textContent = String(total);
+    E.rankBadge.textContent = rankFor(today);
+
+    var slots = ITEMS.length;
+    var cols = Math.max(6, Math.ceil(slots / 2));
+    E.sealGrid.style.gridTemplateColumns = 'repeat(' + cols + ', 1fr)';
+    var html = '';
+    for (var i = 0; i < slots; i++) {
+      var it = ITEMS[i];
+      var on = i < today;
+      html += '<span class="seal-slot' + (on ? ' on' : '') + '">' + icon(on ? it.seal : 'web') + '</span>';
+    }
+    E.sealGrid.innerHTML = html;
+
+    var s = groupCount('study'), r = groupCount('ready'), m = groupCount('morning'), v = groupCount('vit');
+    E.studyPill.textContent = s.done + ' / ' + s.total;
+    E.readyPill.textContent = r.done + ' / ' + r.total;
+    E.morningPill.textContent = m.done + ' / ' + m.total;
+    E.vitPill.textContent = v.done + ' / ' + v.total;
+    E.readyBar.style.width = pctOf(r) + '%';
+    E.morningBar.style.width = pctOf(m) + '%';
+
+    var missions = [
+      { nm: '공부', o: s }, { nm: '잘 준비', o: r }, { nm: '아침', o: m }
+    ];
+    var mh = '';
+    for (var k = 0; k < missions.length; k++) {
+      var mm = missions[k];
+      mh += '<div class="mission"><span class="nm">' + mm.nm + '</span>' +
+        '<span class="mbar"><i style="width:' + pctOf(mm.o) + '%"></i></span>' +
+        '<span class="cnt">' + mm.o.done + '/' + mm.o.total + '</span></div>';
+    }
+    E.missionList.innerHTML = mh;
+    renderWeek();
+    renderSteps();
+    E.praiseText.textContent = praiseFor(today);
+  }
+
+  function praiseFor(n) {
+    if (n >= 10) return '도장 10개! 최고예요!';
+    if (n >= 7) return '거의 다 했어요!';
+    if (n >= 4) return '잘하고 있어요!';
+    if (n >= 1) return '좋아요, 계속 가요!';
+    return '스파이더 루틴 시작!';
+  }
+
+  function weekStart(d) {
+    var x = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+    var dow = x.getDay();
+    var diff = dow === 0 ? 6 : dow - 1;
+    x.setDate(x.getDate() - diff);
+    return x;
+  }
+
+  function renderSteps() {
+    if (!E || !E.readySteps) return;
+    var list = itemsOf('ready'), max = 4, html = '', i;
+    for (i = 0; i < list.length && i < max; i++) {
+      html += '<div class="step"><span class="n">' + (i + 1) + '</span>' +
+        '<span class="lab">' + esc(list[i].label) + '</span>' +
+        '<svg aria-hidden="true"><use href="#sf-' + list[i].seal + '"/></svg></div>';
+    }
+    if (!list.length) html = '<p class="order-note">아직 잘 준비 항목이 없어요</p>';
+    E.readySteps.innerHTML = html;
+    var note = $('orderNote');
+    if (note) note.textContent = list.length > max ? ('외 ' + (list.length - max) + '개 더 있어요') : '다 하면 오늘 도장 완성!';
+  }
+
+  function renderWeek() {
+    var start = weekStart(new Date());
+    var tk = todayKey();
+    var html = '', total = 0;
+    for (var i = 0; i < 7; i++) {
+      var dt = new Date(start.getFullYear(), start.getMonth(), start.getDate() + i);
+      var k = todayKey(dt);
+      var n = Math.max(0, store.stamps[k] || 0);
+      total += n;
+      html += '<div class="ws-cell' + (n > 0 ? ' on' : '') + (k === tk ? ' today' : '') + '">' +
+        '<span class="d">' + WD[dt.getDay()] + '</span>' +
+        '<span class="n">' + (n > 0 ? n : '·') + '</span></div>';
+    }
+    E.wsBars.innerHTML = html;
+    E.weekTotal.textContent = total + '개';
+  }
+
+  function studyDone() {
+    var g = groupCount('study');
+    return g.total > 0 && g.done >= g.total;
+  }
+
+  function renderReward() {
+    var d = dayState();
+    var opts = document.querySelectorAll('.reward-opt');
+    for (var i = 0; i < opts.length; i++) {
+      var on = opts[i].getAttribute('data-reward') === d.reward;
+      opts[i].classList.toggle('on', on);
+      opts[i].setAttribute('aria-pressed', on ? 'true' : 'false');
+    }
+    var done = studyDone();
+    var g = groupCount('study');
+    var left = g.total - g.done;
+    E.rewardNote.classList.toggle('open', done);
+    E.rewardNote.textContent = done ? '지금 보상 시간 켜도 돼요!'
+      : (g.total ? '공부 다 하면 열려요' : '공부 항목을 추가해 보세요');
+    E.rewardState.classList.toggle('open', done);
+    E.rewardState.textContent = done ? '보상 열렸어요!'
+      : (g.total ? ('보상까지 ' + left + '개') : '공부 항목이 없어요');
+  }
+
+  /* ---------------- header / clock ---------------- */
+  var READY_HOUR = 21;
+
+  function readyNight(now) {
+    var start = new Date(now.getFullYear(), now.getMonth(), now.getDate(), READY_HOUR, 0, 0, 0);
+    if (now.getHours() < 5) start.setDate(start.getDate() - 1);
+    var diff = now - start;
+    if (diff < 0) return { on: false, text: '밤 9시 시작' };
+    var mins = Math.floor(diff / 60000);
+    if (mins < 60) return { on: true, text: mins + '분째' };
+    return { on: true, text: Math.floor(mins / 60) + '시간 ' + (mins % 60) + '분째' };
+  }
+
+  function cheerForHour(h) {
+    if (h >= 5 && h < 11) return '좋은 아침이에요, 로운이!';
+    if (h >= 11 && h < 14) return '점심 먹고 힘차게!';
+    if (h >= 14 && h < 18) return '오후도 씩씩하게!';
+    if (h >= 18 && h < 22) return '오늘 하루도 수고했어요';
+    return '푹 자고 내일 만나요';
+  }
+
+  function tickClock() {
+    var now = new Date();
+    E.clockHM.textContent = pad2(now.getHours()) + ':' + pad2(now.getMinutes());
+    E.clockS.textContent = pad2(now.getSeconds());
+    E.clockDate.textContent = (now.getMonth() + 1) + '월 ' + now.getDate() + '일 ' + WD[now.getDay()] + '요일';
+    E.clockCheer.textContent = cheerForHour(now.getHours());
+    E.schedDayNum.textContent = String(now.getDate());
+    E.schedWd.textContent = WD[now.getDay()];
+    if (E.nightBadge && E.nightText) {
+      var nb = readyNight(now);
+      E.nightBadge.classList.toggle('on', nb.on);
+      E.nightText.textContent = nb.text;
+    }
+  }
+
+  /* ---------------- weather ---------------- */
+  function wxInfo(code) {
+    var c = Number(code);
+    if (c === 0) return { label: '맑음', icon: 'w-sun' };
+    if (c === 1) return { label: '대체로 맑음', icon: 'w-sun' };
+    if (c === 2) return { label: '구름 조금', icon: 'w-partly' };
+    if (c === 3) return { label: '흐림', icon: 'w-cloud' };
+    if (c === 45 || c === 48) return { label: '안개', icon: 'w-fog' };
+    if (c >= 51 && c <= 57) return { label: '이슬비', icon: 'w-rain' };
+    if (c >= 61 && c <= 67) return { label: '비', icon: 'w-rain' };
+    if (c >= 71 && c <= 77) return { label: '눈', icon: 'w-snow' };
+    if (c >= 80 && c <= 82) return { label: '소나기', icon: 'w-rain' };
+    if (c === 85 || c === 86) return { label: '눈 소나기', icon: 'w-snow' };
+    if (c >= 95) return { label: '천둥번개', icon: 'w-thunder' };
+    return { label: '날씨 정보', icon: 'w-cloud' };
+  }
+
+  function isWet(code) {
+    var c = Number(code);
+    return (c >= 51 && c <= 67) || (c >= 80 && c <= 82) || c >= 95;
+  }
+
+  function renderWeather(rec, failed) {
+    if (!rec || typeof rec.temp !== 'number' || isNaN(rec.temp)) {
+      E.wxIcon.innerHTML = icon('w-cloud');
+      E.wxTemp.textContent = '--°';
+      E.wxDesc.textContent = failed ? '날씨를 불러오지 못했어요' : '불러오는 중…';
+      E.wxRange.textContent = failed ? '연결되면 다시 알려 줄게요' : '최저 -- · 최고 --';
+      E.wxAsof.textContent = '';
+      E.morningWeather.textContent = failed ? '날씨를 못 불러왔어요' : '날씨를 불러오는 중…';
+      return;
+    }
+    var info = wxInfo(rec.code);
+    E.wxIcon.innerHTML = icon(info.icon);
+    E.wxTemp.textContent = Math.round(rec.temp) + '°';
+    E.wxDesc.textContent = info.label;
+    var lo = typeof rec.min === 'number' && !isNaN(rec.min) ? Math.round(rec.min) + '°' : '--';
+    var hi = typeof rec.max === 'number' && !isNaN(rec.max) ? Math.round(rec.max) + '°' : '--';
+    E.wxRange.textContent = '최저 ' + lo + ' · 최고 ' + hi;
+    var t = new Date(rec.t || Date.now());
+    E.wxAsof.textContent = pad2(t.getHours()) + ':' + pad2(t.getMinutes()) + ' 기준' + (failed ? ' · 이전 정보' : '');
+    E.morningWeather.textContent = adviceFor(rec, info);
+  }
+
+  function adviceFor(rec, info) {
+    var t = rec.temp;
+    var s;
+    if (t < 0) s = '목도리 · 장갑!';
+    else if (t < 5) s = '두꺼운 겉옷!';
+    else if (t < 12) s = '겉옷 챙기기';
+    else if (t < 20) s = '가벼운 겉옷';
+    else s = '시원하게 입기';
+    if (isWet(rec.code)) s += ' ☂ 우산!';
+    return Math.round(t) + '° ' + info.label + ' · ' + s;
+  }
+
+  function fetchWeather() {
+    E.wxRefresh.classList.add('spin');
+    var done = false;
+    function finish() {
+      if (done) return;
+      done = true;
+      E.wxRefresh.classList.remove('spin');
+    }
+    try {
+      window.fetch(WX_URL, { cache: 'no-store' }).then(function (r) {
+        if (!r.ok) throw new Error('http ' + r.status);
+        return r.json();
+      }).then(function (d) {
+        var cur = d && d.current ? d.current : {};
+        var daily = d && d.daily ? d.daily : {};
+        var temp = Number(cur.temperature_2m);
+        if (isNaN(temp)) throw new Error('no temp');
+        var rec = {
+          temp: temp,
+          code: Number(cur.weather_code),
+          min: daily.temperature_2m_min ? Number(daily.temperature_2m_min[0]) : null,
+          max: daily.temperature_2m_max ? Number(daily.temperature_2m_max[0]) : null,
+          t: Date.now()
+        };
+        store.weather = rec;
+        save();
+        renderWeather(rec, false);
+        finish();
+      }).catch(function () {
+        renderWeather(store.weather, true);
+        finish();
+      });
+    } catch (e) {
+      renderWeather(store.weather, true);
+      finish();
+    }
+  }
+
+  /* ---------------- quote ---------------- */
+  function dayOfYear(d) {
+    var start = new Date(d.getFullYear(), 0, 0);
+    return Math.floor((d - start) / 86400000);
+  }
+  function defaultQuoteIndex() {
+    return dayOfYear(new Date()) % QUOTES.length;
+  }
+  function renderQuote() {
+    var d = dayState();
+    var idx = typeof d.quote === 'number' ? d.quote : defaultQuoteIndex();
+    var text = QUOTES[((idx % QUOTES.length) + QUOTES.length) % QUOTES.length];
+    E.quoteText.textContent = text;
+    if (E.morningQuote) E.morningQuote.textContent = text;
+  }
+  function nextQuote() {
+    var d = dayState();
+    var idx = typeof d.quote === 'number' ? d.quote : defaultQuoteIndex();
+    d.quote = (idx + 1) % QUOTES.length;
+    save();
+    renderQuote();
+  }
+
+  /* ---------------- memo & schedule ---------------- */
+  function scheduleText() {
+    var d = dayState();
+    if (typeof d.schedule === 'string' && d.schedule.trim() !== '') return d.schedule;
+    return WEEK_SCHEDULE[new Date().getDay()] || '';
+  }
+
+  function renderEditable() {
+    var d = dayState();
+    var memo = typeof d.memo === 'string' ? d.memo : '';
+    E.memoText.textContent = memo ? memo : '눌러서 오늘 할 일이나 간직하고 싶은 일을 적어 두세요';
+    E.memoText.classList.toggle('empty', !memo);
+    E.schedText.textContent = scheduleText();
+    E.morningSched.textContent = scheduleText();
+  }
+
+  function openEditor(kind) {
+    var bar = kind === 'memo' ? E.memoBar : E.schedBar;
+    if (bar.querySelector('.inline-editor')) return;
+    var d = dayState();
+    var cur = kind === 'memo' ? (d.memo || '') : scheduleText();
+    bar.classList.add('editing');
+
+    var wrap = document.createElement('div');
+    wrap.className = 'inline-editor';
+
+    var input = document.createElement('input');
+    input.type = 'text';
+    input.className = 'inline-input';
+    input.value = cur;
+    input.setAttribute('placeholder', kind === 'memo' ? '오늘의 메모를 적어 주세요' : '오늘의 오후 일정을 적어 주세요');
+
+    var ok = document.createElement('button');
+    ok.type = 'button';
+    ok.className = 'btn primary sm';
+    ok.textContent = '저장';
+
+    var cancel = document.createElement('button');
+    cancel.type = 'button';
+    cancel.className = 'btn ghost sm';
+    cancel.textContent = '취소';
+
+    wrap.appendChild(input);
+    wrap.appendChild(ok);
+    wrap.appendChild(cancel);
+    bar.appendChild(wrap);
+    window.setTimeout(function () { try { input.focus(); } catch (e) {} }, 30);
+
+    function close() {
+      if (wrap.parentNode) wrap.parentNode.removeChild(wrap);
+      bar.classList.remove('editing');
+    }
+    function commit() {
+      var val = input.value.trim();
+      if (kind === 'memo') d.memo = val;
+      else d.schedule = val;
+      save();
+      close();
+      renderEditable();
+      if (kind === 'schedule' && val === '') toast('기본 일정으로 돌아갔어요');
+      else toast('저장했어요');
+    }
+    ok.addEventListener('click', commit);
+    cancel.addEventListener('click', close);
+    input.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter') { ev.preventDefault(); commit(); }
+      else if (ev.key === 'Escape') { close(); }
+    });
+  }
+
+  /* ---------------- mode ---------------- */
+  function currentMode() {
+    if (store.mode === 'morning' || store.mode === 'after') return store.mode;
+    return new Date().getHours() < 12 ? 'morning' : 'after';
+  }
+  function renderMode() {
+    var m = currentMode();
+    var tabs = document.querySelectorAll('.mode-tab');
+    for (var i = 0; i < tabs.length; i++) {
+      var on = tabs[i].getAttribute('data-mode') === m;
+      tabs[i].classList.toggle('active', on);
+      tabs[i].setAttribute('aria-selected', on ? 'true' : 'false');
+    }
+    E.afternoonView.hidden = m !== 'after';
+    E.morningView.hidden = m !== 'morning';
+    window.requestAnimationFrame(syncItemOverflow);
+  }
+
+  /* ---------------- timer ---------------- */
+  var timer = { remaining: TIMER_TOTAL, running: false, endsAt: null };
+  var tickHandle = null;
+
+  function saveTimer() {
+    var d = dayState();
+    d.timer = { remaining: timer.remaining, running: timer.running, endsAt: timer.endsAt };
+    save();
+  }
+
+  function timerDisplay() {
+    var s = Math.max(0, Math.round(timer.remaining));
+    var m = Math.floor(s / 60);
+    var sec = s % 60;
+    E.timerTime.textContent = pad2(m) + ':' + pad2(sec);
+    var pct = Math.max(0, Math.min(100, (s / TIMER_TOTAL) * 100));
+    E.timerBar.style.width = pct + '%';
+    if (timer.running) {
+      E.timerState.textContent = '진행 중';
+      E.timerState.className = 'timer-state run';
+    } else if (timer.remaining <= 0) {
+      E.timerState.textContent = '끝!';
+      E.timerState.className = 'timer-state done';
+    } else if (timer.remaining < TIMER_TOTAL) {
+      E.timerState.textContent = '일시정지';
+      E.timerState.className = 'timer-state';
+    } else {
+      E.timerState.textContent = '대기 중';
+      E.timerState.className = 'timer-state';
+    }
+    E.timerPause.disabled = !timer.running;
+  }
+
+  function timerTick() {
+    if (timer.running && timer.endsAt) {
+      var left = (timer.endsAt - Date.now()) / 1000;
+      if (left <= 0) {
+        timer.remaining = 0;
+        timer.running = false;
+        timer.endsAt = null;
+        saveTimer();
+        timerDisplay();
+        onTimerEnd();
+        return;
+      }
+      timer.remaining = left;
+      timerDisplay();
+    }
+  }
+
+  function startTimer() {
+    if (timer.remaining <= 0) timer.remaining = TIMER_TOTAL;
+    if (timer.running) return;
+    timer.running = true;
+    timer.endsAt = Date.now() + Math.round(timer.remaining * 1000);
+    saveTimer();
+    timerDisplay();
+    ensureAudio();
+    toast(studyDone() ? '보상 60분 시작!' : '타이머 시작! 공부도 잊지 마요');
+  }
+
+  function pauseTimer() {
+    if (!timer.running) return;
+    timer.remaining = Math.max(0, (timer.endsAt - Date.now()) / 1000);
+    timer.running = false;
+    timer.endsAt = null;
+    saveTimer();
+    timerDisplay();
+  }
+
+  function resetTimer() {
+    timer.remaining = TIMER_TOTAL;
+    timer.running = false;
+    timer.endsAt = null;
+    saveTimer();
+    timerDisplay();
+  }
+
+  var audioCtx = null;
+  function ensureAudio() {
+    try {
+      if (!audioCtx) {
+        var AC = window.AudioContext || window.webkitAudioContext;
+        if (AC) audioCtx = new AC();
+      }
+      if (audioCtx && audioCtx.state === 'suspended' && audioCtx.resume) audioCtx.resume();
+    } catch (e) { audioCtx = null; }
+  }
+
+  function playChime(big) {
+    ensureAudio();
+    if (!audioCtx) return;
+    try {
+      var t0 = audioCtx.currentTime + 0.02;
+      var notes = big ? [784, 988, 1175, 1568] : [880, 1175];
+      for (var i = 0; i < notes.length; i++) {
+        var o = audioCtx.createOscillator();
+        var g = audioCtx.createGain();
+        o.type = 'sine';
+        o.frequency.value = notes[i];
+        var at = t0 + i * 0.16;
+        g.gain.setValueAtTime(0, at);
+        g.gain.linearRampToValueAtTime(0.16, at + 0.02);
+        g.gain.exponentialRampToValueAtTime(0.0008, at + 0.55);
+        o.connect(g);
+        g.connect(audioCtx.destination);
+        o.start(at);
+        o.stop(at + 0.6);
+      }
+    } catch (e) { /* no sound is fine */ }
+  }
+
+  /* ---------------- effects ---------------- */
+  function burst(kind) {
+    var n = kind === 'big' ? 16 : 9;
+    var pool = ['spider', 'web', 'mask', 'bolt'];
+    for (var i = 0; i < n; i++) {
+      (function (idx) {
+        var s = document.createElement('span');
+        s.className = 'spark';
+        s.innerHTML = icon(pool[idx % pool.length]);
+        s.style.left = (8 + Math.random() * 84) + '%';
+        s.style.top = (24 + Math.random() * 38) + '%';
+        s.style.animationDelay = (Math.random() * 0.28).toFixed(2) + 's';
+        s.style.color = idx % 3 === 0 ? '#dd332a' : (idx % 3 === 1 ? '#2b4fc9' : '#ffb020');
+        E.fx.appendChild(s);
+        window.setTimeout(function () {
+          if (s.parentNode) s.parentNode.removeChild(s);
+        }, 1700);
+      })(i);
+    }
+  }
+
+  function stampFx(row, sealName) {
+    var s = document.createElement('span');
+    s.className = 'stamp-fx';
+    s.innerHTML = icon(sealName);
+    row.appendChild(s);
+    window.setTimeout(function () {
+      if (s.parentNode) s.parentNode.removeChild(s);
+    }, 780);
+  }
+
+  var toastTimer = null;
+  function toast(msg) {
+    E.toast.textContent = msg;
+    E.toast.classList.add('show');
+    if (toastTimer) window.clearTimeout(toastTimer);
+    toastTimer = window.setTimeout(function () {
+      E.toast.classList.remove('show');
+    }, 2100);
+  }
+
+  /* ---------------- actions ---------------- */
+  var celebrated = false;
+
+  function toggleItem(row) {
+    var id = row.getAttribute('data-id');
+    if (!id) return;
+    var d = dayState();
+    var on = !d.checks[id];
+    d.checks[id] = on;
+
+    var k = todayKey();
+    var cur = store.stamps[k] || 0;
+    store.stamps[k] = Math.max(0, cur + (on ? 1 : -1));
+    save();
+
+    updateRows();
+    renderStamps();
+    renderReward();
+    ensureAudio();
+
+    if (on) {
+      var it = itemById(id);
+      var rg = groupCount('ready');
+      stampFx(row, it ? it.seal : 'star');
+      playChime(false);
+      if (it && it.group === 'ready' && rg.total > 0 && rg.done >= rg.total) {
+        burst('big');
+        toast('잘 준비 끝! 오늘 도장 완성!');
+      }
+    }
+
+    if (studyDone()) {
+      if (!celebrated) {
+        celebrated = true;
+        burst('big');
+        playChime(true);
+        toast('공부 완료! 보상이 열렸어요 🎉');
+      }
+    } else {
+      celebrated = false;
+    }
+  }
+
+  function cycleMath() {
+    var d = dayState();
+    var cur = currentMathMode();
+    var next = MATH_ORDER[(MATH_ORDER.indexOf(cur) + 1) % MATH_ORDER.length];
+    d.mathMode = next;
+    save();
+    updateRows();
+    toast('오늘 수학: ' + MATH_MODE[next].label);
+  }
+
+  function setReward(kind) {
+    var d = dayState();
+    d.reward = d.reward === kind ? null : kind;
+    save();
+    renderReward();
+    if (d.reward) toast(d.reward === 'game' ? '게임 1시간을 골랐어요' : 'TV 보기 1시간을 골랐어요');
+  }
+
+  function onTimerEnd() {
+    burst('big');
+    playChime(true);
+    E.doneModal.hidden = false;
+  }
+
+  function refreshAll() {
+    updateRows();
+    renderStamps();
+    renderReward();
+    renderEditable();
+    renderQuote();
+    renderMode();
+    timerDisplay();
+    tickClock();
+    renderWeather(store.weather, false);
+  }
+
+  function onNewDay(key) {
+    dayState(key);
+    timer.remaining = TIMER_TOTAL;
+    timer.running = false;
+    timer.endsAt = null;
+    celebrated = false;
+    refreshAll();
+    toast('새로운 하루예요! 체크가 새로 시작됐어요');
+  }
+
+  /* ---------------- settings ---------------- */
+  function openSettings() {
+    E.adjInput.value = String(totalStamps());
+    E.settingsModal.hidden = false;
+  }
+
+  function armButton(btn, fn) {
+    var armed = false;
+    btn.classList.remove('armed');
+    btn.textContent = btn.getAttribute('data-label') || btn.textContent;
+    btn.addEventListener('click', function () {
+      if (!armed) {
+        armed = true;
+        if (!btn.getAttribute('data-label')) btn.setAttribute('data-label', btn.textContent);
+        btn.classList.add('armed');
+        btn.textContent = '한 번 더 누르면 실행';
+        window.setTimeout(function () {
+          armed = false;
+          btn.classList.remove('armed');
+          btn.textContent = btn.getAttribute('data-label');
+        }, 4000);
+        return;
+      }
+      armed = false;
+      btn.classList.remove('armed');
+      btn.textContent = btn.getAttribute('data-label');
+      fn();
+    });
+  }
+
+  function resetTodayChecks() {
+    var d = dayState();
+    d.checks = {};
+    d.reward = null;
+    d.mathMode = null;
+    d.timer = { remaining: TIMER_TOTAL, running: false, endsAt: null };
+    store.stamps[todayKey()] = 0;
+    celebrated = false;
+    timer.remaining = TIMER_TOTAL;
+    timer.running = false;
+    timer.endsAt = null;
+    save();
+    refreshAll();
+    toast('오늘 체크를 초기화했어요');
+  }
+
+  function resetTotalStamps() {
+    store.stamps = {};
+    store.adjust = 0;
+    store.days = {};
+    store.days[todayKey()] = newDay();
+    celebrated = false;
+    timer.remaining = TIMER_TOTAL;
+    timer.running = false;
+    timer.endsAt = null;
+    save();
+    refreshAll();
+    toast('누적 도장을 처음부터 다시 시작해요');
+  }
+
+  function applyAdjust() {
+    var want = parseInt(E.adjInput.value, 10);
+    if (isNaN(want) || want < 0) want = 0;
+    var sum = totalStamps() - (store.adjust || 0);
+    store.adjust = want - sum;
+    save();
+    renderStamps();
+    toast('누적 도장을 ' + want + '개로 맞췄어요');
+  }
+
+  /* ---------------- routine editor (screen) ---------------- */
+  function esc(s) {
+    return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function rowHtml(it) {
+    return '<div class="re-row" data-id="' + esc(it.id) + '">' +
+      '<span class="ic">' + icon(it.seal) + '</span>' +
+      '<span class="re-name">' + esc(it.label) + (it.id === 'math' ? '<span class="tag">요일 자동</span>' : '') + '</span>' +
+      '<button class="iconbtn" type="button" data-act="rename" aria-label="이름 수정">' + icon('pencil') + '</button>' +
+      '<button class="iconbtn del" type="button" data-act="del" aria-label="삭제">' + icon('trash') + '</button>' +
+      '</div>';
+  }
+
+  var editorArm = { id: null, btn: null, timer: null };
+
+  function clearEditorArm() {
+    if (editorArm.timer) window.clearTimeout(editorArm.timer);
+    if (editorArm.btn && editorArm.btn.parentNode) {
+      editorArm.btn.classList.remove('armed');
+      editorArm.btn.innerHTML = icon('trash');
+    }
+    editorArm.id = null;
+    editorArm.btn = null;
+    editorArm.timer = null;
+  }
+
+  function updateRoutineCount() {
+    if (!E || !E.routineCount) return;
+    E.routineCount.textContent = '전체 ' + ITEMS.length + ' / ' + TOTAL_LIMIT + '개 · 그룹마다 최대 ' + GROUP_LIMIT + '개';
+  }
+
+  function renderRoutineEditor(hl) {
+    if (!E || !E.routineList) return;
+    clearEditorArm();
+    var html = '', gi, g, list, i;
+    for (gi = 0; gi < GROUPS.length; gi++) {
+      g = GROUPS[gi];
+      list = itemsOf(g.key);
+      html += '<section class="re-group' + (hl === g.key ? ' hl' : '') + '" data-group="' + g.key + '">' +
+        '<div class="re-head">' + icon(g.seal) + '<b>' + g.name + '</b><span class="n">' + list.length + '개</span></div>' +
+        '<div class="re-rows">';
+      if (!list.length) html += '<div class="re-empty">아직 루틴이 없어요. 아래에서 추가해 보세요.</div>';
+      for (i = 0; i < list.length; i++) html += rowHtml(list[i]);
+      html += '</div>' +
+        '<div class="re-add">' +
+        '<input class="re-input" type="text" maxlength="' + LABEL_MAX + '" data-add-input="' + g.key + '" placeholder="' + esc(g.hint) + '" aria-label="' + g.name + ' 루틴 추가">' +
+        '<button class="btn primary sm" type="button" data-act="add">추가</button>' +
+        '</div></section>';
+    }
+    E.routineList.innerHTML = html;
+    updateRoutineCount();
+  }
+
+  function updateGroupCount(sec) {
+    if (!sec) return;
+    var n = sec.querySelector('.re-head .n');
+    if (n) n.textContent = itemsOf(sec.getAttribute('data-group')).length + '개';
+  }
+
+  function refreshEditorRow(row, id) {
+    var it = itemById(id);
+    if (!it) { if (row && row.parentNode) row.parentNode.removeChild(row); return; }
+    row.outerHTML = rowHtml(it);
+  }
+
+  function startEditorRowEdit(row, id) {
+    var it = itemById(id);
+    if (!it || row.querySelector('input')) return;
+    row.innerHTML = '<span class="ic">' + icon(it.seal) + '</span>' +
+      '<span class="re-edit"><input class="re-input" type="text" maxlength="' + LABEL_MAX + '" value="' + esc(it.label) + '" aria-label="루틴 이름"></span>' +
+      '<button class="btn primary sm" type="button" data-act="save">저장</button>' +
+      '<button class="btn ghost sm" type="button" data-act="cancel">취소</button>';
+    var input = row.querySelector('input');
+    try { input.focus(); input.setSelectionRange(input.value.length, input.value.length); } catch (e) {}
+  }
+
+  function onEditorClick(ev) {
+    var actEl = ev.target.closest ? ev.target.closest('[data-act]') : null;
+    if (!actEl) return;
+    var act = actEl.getAttribute('data-act');
+    var sec = actEl.closest('.re-group');
+    var row = actEl.closest('.re-row');
+
+    if (act === 'add') {
+      var addInput = sec ? sec.querySelector('[data-add-input]') : null;
+      if (!addInput) return;
+      var made = addRoutine(sec.getAttribute('data-group'), addInput.value);
+      if (!made) { try { addInput.focus(); } catch (e2) {} return; }
+      var rows = sec.querySelector('.re-rows');
+      if (rows) {
+        var empty = rows.querySelector('.re-empty');
+        if (empty) rows.removeChild(empty);
+        rows.insertAdjacentHTML('beforeend', rowHtml(made));
+      }
+      addInput.value = '';
+      updateGroupCount(sec);
+      updateRoutineCount();
+      toast('"' + made.label + '"을(를) 추가했어요');
+      try { addInput.focus(); } catch (e3) {}
+      return;
+    }
+
+    if (!row) return;
+    var id = row.getAttribute('data-id');
+
+    if (act === 'rename') { startEditorRowEdit(row, id); return; }
+    if (act === 'cancel') { refreshEditorRow(row, id); return; }
+
+    if (act === 'save') {
+      var input = row.querySelector('input');
+      var ok = input ? renameRoutine(id, input.value) : false;
+      if (!ok) {
+        toast('이름을 비울 수는 없어요');
+        if (input) { try { input.focus(); } catch (e4) {} }
+        return;
+      }
+      refreshEditorRow(row, id);
+      toast('이름을 바꿨어요');
+      return;
+    }
+
+    if (act === 'del') {
+      if (editorArm.id === id) {
+        clearEditorArm();
+        removeRoutine(id);
+        if (row.parentNode) row.parentNode.removeChild(row);
+        var rows2 = sec ? sec.querySelector('.re-rows') : null;
+        if (rows2 && !rows2.querySelector('.re-row')) {
+          rows2.innerHTML = '<div class="re-empty">아직 루틴이 없어요. 아래에서 추가해 보세요.</div>';
+        }
+        updateGroupCount(sec);
+        updateRoutineCount();
+        toast('루틴을 지웠어요. 다시 넣고 싶으면 추가하면 돼요');
+        return;
+      }
+      clearEditorArm();
+      editorArm.id = id;
+      editorArm.btn = actEl;
+      actEl.classList.add('armed');
+      actEl.textContent = '삭제?';
+      editorArm.timer = window.setTimeout(clearEditorArm, 3200);
+      return;
+    }
+  }
+
+  function onEditorKey(ev) {
+    if (ev.key === 'Escape') {
+      var row = ev.target.closest ? ev.target.closest('.re-row') : null;
+      if (row && row.querySelector('[data-act="cancel"]')) {
+        ev.stopPropagation();
+        refreshEditorRow(row, row.getAttribute('data-id'));
+      }
+      return;
+    }
+    if (ev.key !== 'Enter') return;
+    var input = ev.target;
+    if (!input || input.tagName !== 'INPUT') return;
+    ev.preventDefault();
+    var addKey = input.getAttribute('data-add-input');
+    var btn;
+    if (addKey) {
+      btn = input.parentNode.querySelector('[data-act="add"]');
+    } else {
+      var r2 = input.closest('.re-row');
+      btn = r2 ? r2.querySelector('[data-act="save"]') : null;
+    }
+    if (btn) btn.click();
+  }
+
+  function openRoutineEditor(group) {
+    if (!E || !E.routineModal) return;
+    if (E.settingsModal) E.settingsModal.hidden = true;
+    renderRoutineEditor(group);
+    E.routineModal.hidden = false;
+    var sheet = E.routineModal.querySelector('.sheet');
+    if (!sheet) return;
+    var sec = group ? E.routineList.querySelector('.re-group[data-group="' + group + '"]') : null;
+    if (sec) {
+      var top = sec.getBoundingClientRect().top - sheet.getBoundingClientRect().top + sheet.scrollTop;
+      sheet.scrollTop = Math.max(0, top - 10);
+    } else {
+      sheet.scrollTop = 0;
+    }
+  }
+
+  /* ---------------- wiring ---------------- */
+  function wire() {
+    document.addEventListener('click', function (ev) {
+      var target = ev.target;
+      var editBtn = target.closest ? target.closest('[data-edit-group]') : null;
+      if (editBtn) {
+        ev.preventDefault();
+        openRoutineEditor(editBtn.getAttribute('data-edit-group'));
+        return;
+      }
+      var swap = target.closest ? target.closest('[data-act="swap"]') : null;
+      if (swap) {
+        ev.preventDefault();
+        ev.stopPropagation();
+        cycleMath();
+        return;
+      }
+      var row = target.closest ? target.closest('.item') : null;
+      if (row) {
+        toggleItem(row);
+        return;
+      }
+      var ropt = target.closest ? target.closest('.reward-opt') : null;
+      if (ropt) {
+        setReward(ropt.getAttribute('data-reward'));
+        return;
+      }
+      var tab = target.closest ? target.closest('.mode-tab') : null;
+      if (tab) {
+        store.mode = tab.getAttribute('data-mode');
+        save();
+        renderMode();
+        return;
+      }
+      var closer = target.closest ? target.closest('[data-close]') : null;
+      if (closer) {
+        var m = $(closer.getAttribute('data-close'));
+        if (m) m.hidden = true;
+        return;
+      }
+      if (target === E.settingsModal) E.settingsModal.hidden = true;
+      if (target === E.doneModal) E.doneModal.hidden = true;
+      if (target === E.routineModal) E.routineModal.hidden = true;
+    });
+
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key !== 'Escape') return;
+      if (E.routineModal && !E.routineModal.hidden) { E.routineModal.hidden = true; return; }
+      if (E.settingsModal && !E.settingsModal.hidden) { E.settingsModal.hidden = true; return; }
+      if (E.doneModal && !E.doneModal.hidden) { E.doneModal.hidden = true; }
+    });
+
+    document.addEventListener('keydown', function (ev) {
+      if (ev.key !== 'Enter' && ev.key !== ' ') return;
+      var row = ev.target.closest ? ev.target.closest('.item') : null;
+      if (row) { ev.preventDefault(); toggleItem(row); }
+    });
+
+    E.gearBtn.addEventListener('click', openSettings);
+    if (E.openRoutineEdit) E.openRoutineEdit.addEventListener('click', function () { openRoutineEditor(null); });
+    if (E.routineList) {
+      E.routineList.addEventListener('click', onEditorClick);
+      E.routineList.addEventListener('keydown', onEditorKey);
+    }
+    if (E.routineReset) armButton(E.routineReset, resetRoutines);
+    E.wxRefresh.addEventListener('click', fetchWeather);
+    E.quoteCard.addEventListener('click', nextQuote);
+    E.quoteCard.addEventListener('keydown', function (ev) {
+      if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); nextQuote(); }
+    });
+    E.memoBar.addEventListener('click', function (ev) {
+      if (ev.target.closest && ev.target.closest('.inline-editor')) return;
+      openEditor('memo');
+    });
+    E.schedBar.addEventListener('click', function (ev) {
+      if (ev.target.closest && ev.target.closest('.inline-editor')) return;
+      openEditor('schedule');
+    });
+
+    E.timerStart.addEventListener('click', startTimer);
+    E.timerPause.addEventListener('click', pauseTimer);
+    E.timerReset.addEventListener('click', resetTimer);
+
+    $('doneClose').addEventListener('click', function () { E.doneModal.hidden = true; });
+    $('doneAgain').addEventListener('click', function () {
+      E.doneModal.hidden = true;
+      timer.remaining = TIMER_TOTAL;
+      startTimer();
+      burst('big');
+    });
+
+    armButton(E.resetToday, resetTodayChecks);
+    armButton(E.resetTotal, resetTotalStamps);
+    E.adjSave.addEventListener('click', applyAdjust);
+    E.adjMinus.addEventListener('click', function () {
+      var v = parseInt(E.adjInput.value, 10) || 0;
+      E.adjInput.value = String(Math.max(0, v - 1));
+    });
+    E.adjPlus.addEventListener('click', function () {
+      var v = parseInt(E.adjInput.value, 10) || 0;
+      E.adjInput.value = String(v + 1);
+    });
+
+    document.addEventListener('visibilitychange', function () {
+      if (!document.hidden) {
+        timerTick();
+        fetchWeather();
+      }
+    });
+
+    var resizeT = null;
+    window.addEventListener('resize', function () {
+      if (resizeT) window.clearTimeout(resizeT);
+      resizeT = window.setTimeout(syncItemOverflow, 150);
+    });
+  }
+
+  /* ---------------- boot ---------------- */
+  var currentKey = todayKey();
+
+  function boot() {
+    E = el();
+    load();
+    buildAllRows();
+
+    var d = dayState();
+    timer.remaining = d.timer.remaining;
+    timer.running = !!d.timer.running;
+    timer.endsAt = d.timer.endsAt || null;
+    if (timer.running && timer.endsAt && timer.endsAt <= Date.now()) {
+      timer.remaining = 0;
+      timer.running = false;
+      timer.endsAt = null;
+    }
+    if (!timer.running) {
+      timer.remaining = typeof d.timer.remaining === 'number' ? d.timer.remaining : TIMER_TOTAL;
+    }
+
+    refreshAll();
+    wire();
+
+    window.setInterval(tickClock, 1000);
+    window.setInterval(timerTick, 250);
+    window.setInterval(function () {
+      var k = todayKey();
+      if (k !== currentKey) {
+        currentKey = k;
+        onNewDay(k);
+      }
+      pruneDays();
+    }, 30000);
+
+    fetchWeather();
+    window.setInterval(fetchWeather, 20 * 60 * 1000);
+
+    window.addEventListener('beforeunload', writeNow);
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) writeNow();
+    });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot);
+  } else {
+    boot();
+  }
+})();
+</script>
+</body>
+</html>
